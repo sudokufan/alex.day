@@ -66,24 +66,29 @@ export const topLists: MountRushmore[] = [
   },
   {
     category: "Pizza Toppings",
-    items: [{ name: "" }, { name: "" }, { name: "" }, { name: "" }],
+    items: [
+      { name: "Artichokes" },
+      { name: "Caramelised Onions" },
+      { name: "Mushrooms" },
+      { name: "" },
+    ],
   },
   {
     category: "Blogs",
     items: [
-      { name: "", detail: "" },
-      { name: "", detail: "" },
-      { name: "", detail: "" },
-      { name: "", detail: "" },
+      { name: "Really Very Human" },
+      { name: "Panic World" },
+      { name: "Rhystic Studies" },
+      { name: "" },
     ],
   },
   {
     category: "YouTubers",
     items: [
-      { name: "", detail: "" },
-      { name: "", detail: "" },
-      { name: "", detail: "" },
-      { name: "", detail: "" },
+      { name: "Rhystic Studies" },
+      { name: "Summoning Salt" },
+      { name: "hbomberguy" },
+      { name: "ContraPoints" },
     ],
   },
   {
@@ -98,10 +103,10 @@ export const topLists: MountRushmore[] = [
   {
     category: "Magic Sets",
     items: [
-      { name: "", detail: "" },
-      { name: "", detail: "" },
-      { name: "", detail: "" },
-      { name: "", detail: "" },
+      { name: "Innistrad", detail: "2012" },
+      { name: "Ixalan", detail: "2017" },
+      { name: "Ikoria: Lair of the Behemoths", detail: "2020" },
+      { name: "Kamigawa: Neon Dynasty", detail: "2022" },
     ],
   },
 ];

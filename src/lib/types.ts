@@ -42,3 +42,9 @@ export interface NowSection {
   heading: string;
   items: string[];
 }
+
+export interface Project {
+  title: string;
+  date: string;
+  description: string;
+}

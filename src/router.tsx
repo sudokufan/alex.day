@@ -7,6 +7,7 @@ import Now from "./pages/Now";
 import Top from "./pages/Top";
 import Uses from "./pages/Uses";
 import Stats from "./pages/Stats";
+import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import Admin from "./pages/Admin";
 
@@ -15,6 +16,7 @@ export const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <About /> },
+      { path: "projects", element: <Projects /> },
       { path: "writing", element: <Writing /> },
       { path: "writing/:slug", element: <WritingPost /> },
       { path: "now", element: <Now /> },
