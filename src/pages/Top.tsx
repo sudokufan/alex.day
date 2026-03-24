@@ -6,11 +6,9 @@ export default function Top() {
   return (
     <PageTransition>
       <h1 className="text-3xl font-serif font-light text-ink mb-2">
-        Top Four
+        Rushmores
       </h1>
-      <p className="text-stone mb-12">
-        Mount Rushmore lists. Four of each, no more.
-      </p>
+      <p className="text-stone mb-12">My four faves. All opinions my own.</p>
       <div className="space-y-14">
         {topLists.map((list, i) => (
           <SectionReveal key={list.category} delay={i * 0.06}>

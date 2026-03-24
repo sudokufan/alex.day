@@ -3,7 +3,7 @@ export const about = {
   bio: [
     "I build things on the internet, but I try not to live there.",
     "You'll usually find me with a smile on my face, a Magic: the Gathering card in my hand and a slice of pizza in my mouth.",
-    "When I'm not at a computer, I'm probably reading, running, or writing in a notebook with a pen that cost more than it should have.",
+    "I've been doing this for a while.",
   ],
   links: [
     { label: "GitHub", url: "https://github.com/sudokufan" },
