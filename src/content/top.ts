@@ -20,11 +20,29 @@ export const topLists: MountRushmore[] = [
     ],
   },
   {
-    category: "Films",
+    category: "TV Shows",
     items: [
-      { name: "Paterson", detail: "Jim Jarmusch" },
-      { name: "The Tree of Life", detail: "Terrence Malick" },
-      { name: "Lost in Translation", detail: "Sofia Coppola" },
+      { name: "Les Miserables", detail: "Richard Curtis" },
+      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
+      { name: "Groundhog Day", detail: "Tim Minchin" },
+      { name: "Moonlight", detail: "Barry Jenkins" },
+    ],
+  },
+  {
+    category: "Movies",
+    items: [
+      { name: "About Time", detail: "Richard Curtis" },
+      { name: "Tick, Tick... Boom!", detail: "Lin-Manuel Miranda" },
+      { name: "Wall•E", detail: "Andrew Stanton" },
+      { name: "Moonlight", detail: "Barry Jenkins" },
+    ],
+  },
+  {
+    category: "Musicals",
+    items: [
+      { name: "Les Miserables", detail: "Richard Curtis" },
+      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
+      { name: "Groundhog Day", detail: "Tim Minchin" },
       { name: "Moonlight", detail: "Barry Jenkins" },
     ],
   },
@@ -35,6 +53,60 @@ export const topLists: MountRushmore[] = [
       { name: "A long walk with no destination" },
       { name: "Cooking dinner with the radio on" },
       { name: "Reading in a thunderstorm" },
+    ],
+  },
+  {
+    category: "Pizza Places",
+    items: [
+      { name: "Morning coffee, no phone" },
+      { name: "A long walk with no destination" },
+      { name: "Cooking dinner with the radio on" },
+      { name: "Reading in a thunderstorm" },
+    ],
+  },
+  {
+    category: "Pizza Toppings",
+    items: [
+      { name: "Morning coffee, no phone" },
+      { name: "A long walk with no destination" },
+      { name: "Cooking dinner with the radio on" },
+      { name: "Reading in a thunderstorm" },
+    ],
+  },
+  {
+    category: "Blogs",
+    items: [
+      { name: "Les Miserables", detail: "Richard Curtis" },
+      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
+      { name: "Groundhog Day", detail: "Tim Minchin" },
+      { name: "Moonlight", detail: "Barry Jenkins" },
+    ],
+  },
+  {
+    category: "YouTubers",
+    items: [
+      { name: "Les Miserables", detail: "Richard Curtis" },
+      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
+      { name: "Groundhog Day", detail: "Tim Minchin" },
+      { name: "Moonlight", detail: "Barry Jenkins" },
+    ],
+  },
+  {
+    category: "Podcasts",
+    items: [
+      { name: "Reply All" },
+      { name: "If Books Could Kill" },
+      { name: "Hyperfixed" },
+      { name: "" },
+    ],
+  },
+  {
+    category: "Magic Sets",
+    items: [
+      { name: "Les Miserables", detail: "Richard Curtis" },
+      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
+      { name: "Groundhog Day", detail: "Tim Minchin" },
+      { name: "Moonlight", detail: "Barry Jenkins" },
     ],
   },
 ];

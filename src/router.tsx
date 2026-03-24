@@ -8,6 +8,7 @@ import Top from "./pages/Top";
 import Uses from "./pages/Uses";
 import Stats from "./pages/Stats";
 import NotFound from "./pages/NotFound";
+import Admin from "./pages/Admin";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ export const router = createBrowserRouter([
       { path: "top", element: <Top /> },
       { path: "uses", element: <Uses /> },
       { path: "stats", element: <Stats /> },
+      { path: "admin", element: <Admin /> },
       { path: "*", element: <NotFound /> },
     ],
   },
