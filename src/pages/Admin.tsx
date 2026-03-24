@@ -2,7 +2,13 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Markdown from "react-markdown";
 import type { Post } from "../lib/types";
-import { getDrafts, saveDraft, deleteDraft, publishDraft } from "../lib/posts";
+import {
+  authenticate,
+  getDrafts,
+  saveDraft,
+  deleteDraft,
+  publishDraft,
+} from "../lib/posts";
 import { formatDate } from "../lib/formatDate";
 import PageTransition from "../components/PageTransition";
 
@@ -254,15 +260,13 @@ export default function Admin() {
     if (authed) loadDrafts();
   }, [authed, loadDrafts]);
 
+  const isDev = import.meta.env.DEV;
+
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const res = await fetch("/api/auth", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ password }),
-      });
-      if (res.ok) {
+      const ok = await authenticate(password);
+      if (ok) {
         setAuthed(true);
         setError(false);
       } else {
@@ -288,12 +292,20 @@ export default function Admin() {
                 setPassword(e.target.value);
                 setError(false);
               }}
-              placeholder="Password"
+              placeholder={isDev ? "Password" : "GitHub personal access token"}
               className="w-full px-3 py-2 bg-warm-white border border-parchment rounded-lg font-sans text-sm text-ink placeholder:text-warm-gray focus:outline-none focus:border-accent transition-colors"
               autoFocus
             />
             {error && (
-              <p className="font-sans text-xs text-red-700">Wrong password.</p>
+              <p className="font-sans text-xs text-red-700">
+                {isDev ? "Wrong password." : "Invalid token or repo not found."}
+              </p>
+            )}
+            {!isDev && (
+              <p className="font-sans text-xs text-warm-gray leading-relaxed">
+                Enter a GitHub PAT with repo access. Drafts save to your
+                browser; publishing commits to writing.ts.
+              </p>
             )}
             <button
               type="submit"
@@ -393,15 +405,28 @@ export default function Admin() {
 
       <div className="mt-16 pt-8 border-t border-parchment">
         <p className="font-sans text-xs text-warm-gray leading-relaxed">
-          Drafts auto-save to{" "}
-          <code className="text-xs bg-parchment px-1 py-0.5 rounded font-mono">
-            src/drafts/
-          </code>{" "}
-          as you type. Publishing moves the post into{" "}
-          <code className="text-xs bg-parchment px-1 py-0.5 rounded font-mono">
-            writing.ts
-          </code>{" "}
-          and deletes the draft file.
+          {isDev ? (
+            <>
+              Drafts auto-save to{" "}
+              <code className="text-xs bg-parchment px-1 py-0.5 rounded font-mono">
+                src/drafts/
+              </code>{" "}
+              as you type. Publishing moves the post into{" "}
+              <code className="text-xs bg-parchment px-1 py-0.5 rounded font-mono">
+                writing.ts
+              </code>{" "}
+              and deletes the draft file.
+            </>
+          ) : (
+            <>
+              Drafts auto-save to your browser. Publishing commits the post
+              to{" "}
+              <code className="text-xs bg-parchment px-1 py-0.5 rounded font-mono">
+                writing.ts
+              </code>{" "}
+              in your GitHub repo, triggering a rebuild.
+            </>
+          )}
         </p>
       </div>
     </PageTransition>

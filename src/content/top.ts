@@ -4,19 +4,28 @@ export const topLists: MountRushmore[] = [
   {
     category: "Albums",
     items: [
-      { name: "Kind of Blue", detail: "Miles Davis" },
-      { name: "In Rainbows", detail: "Radiohead" },
-      { name: "For Emma, Forever Ago", detail: "Bon Iver" },
-      { name: "Blonde", detail: "Frank Ocean" },
+      { name: "Thriller", detail: "Michael Jackson" },
+      { name: "Rumours", detail: "Fleetwood Mac" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+    ],
+  },
+  {
+    category: "Songs",
+    items: [
+      { name: "Who Wants to Live Forever", detail: "Queen" },
+      { name: "Albatross", detail: "Fleetwood Mac" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
     ],
   },
   {
     category: "Books",
     items: [
-      { name: "Jayber Crow", detail: "Wendell Berry" },
-      { name: "East of Eden", detail: "John Steinbeck" },
-      { name: "Gilead", detail: "Marilynne Robinson" },
-      { name: "The Brothers Karamazov", detail: "Fyodor Dostoevsky" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
     ],
   },
   {
@@ -25,7 +34,7 @@ export const topLists: MountRushmore[] = [
       { name: "Les Miserables", detail: "Richard Curtis" },
       { name: "Hamilton", detail: "Lin-Manuel Miranda" },
       { name: "Groundhog Day", detail: "Tim Minchin" },
-      { name: "Moonlight", detail: "Barry Jenkins" },
+      { name: "", detail: "" },
     ],
   },
   {
@@ -34,7 +43,7 @@ export const topLists: MountRushmore[] = [
       { name: "About Time", detail: "Richard Curtis" },
       { name: "Tick, Tick... Boom!", detail: "Lin-Manuel Miranda" },
       { name: "Wall•E", detail: "Andrew Stanton" },
-      { name: "Moonlight", detail: "Barry Jenkins" },
+      { name: "", detail: "" },
     ],
   },
   {
@@ -43,52 +52,38 @@ export const topLists: MountRushmore[] = [
       { name: "Les Miserables", detail: "Richard Curtis" },
       { name: "Hamilton", detail: "Lin-Manuel Miranda" },
       { name: "Groundhog Day", detail: "Tim Minchin" },
-      { name: "Moonlight", detail: "Barry Jenkins" },
-    ],
-  },
-  {
-    category: "Simple Pleasures",
-    items: [
-      { name: "Morning coffee, no phone" },
-      { name: "A long walk with no destination" },
-      { name: "Cooking dinner with the radio on" },
-      { name: "Reading in a thunderstorm" },
+      { name: "", detail: "" },
     ],
   },
   {
     category: "Pizza Places",
     items: [
-      { name: "Morning coffee, no phone" },
-      { name: "A long walk with no destination" },
-      { name: "Cooking dinner with the radio on" },
-      { name: "Reading in a thunderstorm" },
+      { name: "il Pizzaiuolo", detail: "Florence, Italy" },
+      { name: "Fradiavolo", detail: "Various, Italy" },
+      { name: "Pizza Pilgrims", detail: "Various, England" },
+      { name: "Pizza Punks", detail: "Various, UK" },
     ],
   },
   {
     category: "Pizza Toppings",
-    items: [
-      { name: "Morning coffee, no phone" },
-      { name: "A long walk with no destination" },
-      { name: "Cooking dinner with the radio on" },
-      { name: "Reading in a thunderstorm" },
-    ],
+    items: [{ name: "" }, { name: "" }, { name: "" }, { name: "" }],
   },
   {
     category: "Blogs",
     items: [
-      { name: "Les Miserables", detail: "Richard Curtis" },
-      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
-      { name: "Groundhog Day", detail: "Tim Minchin" },
-      { name: "Moonlight", detail: "Barry Jenkins" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
     ],
   },
   {
     category: "YouTubers",
     items: [
-      { name: "Les Miserables", detail: "Richard Curtis" },
-      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
-      { name: "Groundhog Day", detail: "Tim Minchin" },
-      { name: "Moonlight", detail: "Barry Jenkins" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
     ],
   },
   {
@@ -103,10 +98,10 @@ export const topLists: MountRushmore[] = [
   {
     category: "Magic Sets",
     items: [
-      { name: "Les Miserables", detail: "Richard Curtis" },
-      { name: "Hamilton", detail: "Lin-Manuel Miranda" },
-      { name: "Groundhog Day", detail: "Tim Minchin" },
-      { name: "Moonlight", detail: "Barry Jenkins" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
+      { name: "", detail: "" },
     ],
   },
 ];
