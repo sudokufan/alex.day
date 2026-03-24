@@ -4,13 +4,13 @@ Local dev (no change):
 
 - Login with .env password
 - Drafts save to src/drafts/ files
-- Publish writes into writing.ts locally
+- Publish writes into posts.ts locally
 
 Production:
 
 - Login with a GitHub Personal Access Token (needs repo scope)
 - Drafts auto-save to your browser's localStorage
-- Publish commits directly to writing.ts in your GitHub repo via the API, with a commit message like publish: On Slowing Down
+- Publish commits directly to posts.ts in your GitHub repo via the API, with a commit message like publish: On Slowing Down
 - If you have CI/CD (Vercel, Netlify, etc.), the site auto-rebuilds
 
 Setup needed for production:

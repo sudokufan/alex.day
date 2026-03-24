@@ -1,5 +1,5 @@
 const REPO = import.meta.env.VITE_GITHUB_REPO ?? ""; // "owner/repo"
-const WRITING_PATH = "src/content/writing.ts";
+const WRITING_PATH = "src/content/posts.ts";
 const DRAFTS_STORAGE_KEY = "alex-day-drafts";
 
 let token = "";
@@ -83,12 +83,12 @@ export async function publishDraft(slug: string): Promise<void> {
   const post = drafts.find((d) => d.slug === slug);
   if (!post) throw new Error("Draft not found");
 
-  // 1. Get current writing.ts from GitHub
+  // 1. Get current posts.ts from GitHub
   const fileRes = await fetch(
     `https://api.github.com/repos/${REPO}/contents/${WRITING_PATH}`,
     { headers: headers() },
   );
-  if (!fileRes.ok) throw new Error("Failed to fetch writing.ts from GitHub");
+  if (!fileRes.ok) throw new Error("Failed to fetch posts.ts from GitHub");
 
   const fileData = await fileRes.json();
   const currentContent = atob(fileData.content.replace(/\n/g, ""));

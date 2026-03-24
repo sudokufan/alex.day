@@ -1,4 +1,10 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import {
+  useState,
+  useEffect,
+  useRef,
+  useCallback,
+  type RefObject,
+} from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Markdown from "react-markdown";
 import type { Post } from "../lib/types";
@@ -19,6 +25,108 @@ function slugify(title: string): string {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
+}
+
+interface FormatAction {
+  label: string;
+  icon: string;
+  prefix: string;
+  suffix: string;
+  block?: boolean;
+}
+
+const formatActions: FormatAction[] = [
+  { label: "Bold", icon: "B", prefix: "**", suffix: "**" },
+  { label: "Italic", icon: "I", prefix: "*", suffix: "*" },
+  { label: "Heading", icon: "H", prefix: "## ", suffix: "", block: true },
+  { label: "Link", icon: "🔗", prefix: "[", suffix: "](url)" },
+  { label: "Quote", icon: '"', prefix: "> ", suffix: "", block: true },
+  { label: "List", icon: "•", prefix: "- ", suffix: "", block: true },
+];
+
+function FormattingToolbar({
+  textareaRef,
+  body,
+  setBody,
+  onchange,
+}: {
+  textareaRef: RefObject<HTMLTextAreaElement | null>;
+  body: string;
+  setBody: (v: string) => void;
+  onchange: () => void;
+}) {
+  const applyFormat = (action: FormatAction) => {
+    const ta = textareaRef.current;
+    if (!ta) return;
+
+    const start = ta.selectionStart;
+    const end = ta.selectionEnd;
+    const selected = body.slice(start, end);
+
+    let newText: string;
+    let cursorPos: number;
+
+    if (action.block) {
+      // For block formats, ensure we're on a new line
+      const before = body.slice(0, start);
+      const needsNewline = before.length > 0 && !before.endsWith("\n");
+      const prefix = (needsNewline ? "\n" : "") + action.prefix;
+
+      if (selected) {
+        newText = before + prefix + selected + action.suffix + body.slice(end);
+        cursorPos =
+          start + prefix.length + selected.length + action.suffix.length;
+      } else {
+        newText = before + prefix + action.suffix + body.slice(end);
+        cursorPos = start + prefix.length;
+      }
+    } else {
+      if (selected) {
+        newText =
+          body.slice(0, start) +
+          action.prefix +
+          selected +
+          action.suffix +
+          body.slice(end);
+        cursorPos =
+          start + action.prefix.length + selected.length + action.suffix.length;
+      } else {
+        newText =
+          body.slice(0, start) +
+          action.prefix +
+          action.suffix +
+          body.slice(end);
+        cursorPos = start + action.prefix.length;
+      }
+    }
+
+    setBody(newText);
+    onchange();
+
+    // Restore focus and cursor position
+    requestAnimationFrame(() => {
+      ta.focus();
+      ta.setSelectionRange(cursorPos, cursorPos);
+    });
+  };
+
+  return (
+    <div className="flex gap-1 mb-1.5">
+      {formatActions.map((action) => (
+        <button
+          key={action.label}
+          type="button"
+          onClick={() => applyFormat(action)}
+          title={action.label}
+          className={`px-2 py-1 text-xs rounded border border-parchment bg-warm-white text-stone hover:text-ink hover:border-accent transition-colors duration-150 ${
+            action.label === "Bold" ? "font-bold" : ""
+          } ${action.label === "Italic" ? "italic" : ""}`}
+        >
+          {action.icon}
+        </button>
+      ))}
+    </div>
+  );
 }
 
 function DraftEditor({
@@ -44,6 +152,7 @@ function DraftEditor({
   const [publishing, setPublishing] = useState(false);
   const timerRef = useRef<ReturnType<typeof setTimeout>>(null);
   const slugRef = useRef(initial?.slug ?? "");
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const currentPost = useCallback((): Post | null => {
     if (!title.trim()) return null;
@@ -212,9 +321,16 @@ function DraftEditor({
           </div>
           <div>
             <label className="block font-sans text-xs text-stone mb-1.5">
-              Body (markdown)
+              Body
             </label>
+            <FormattingToolbar
+              textareaRef={textareaRef}
+              body={body}
+              setBody={setBody}
+              onchange={triggerAutosave}
+            />
             <textarea
+              ref={textareaRef}
               value={body}
               onChange={(e) => {
                 setBody(e.target.value);
@@ -304,7 +420,7 @@ export default function Admin() {
             {!isDev && (
               <p className="font-sans text-xs text-warm-gray leading-relaxed">
                 Enter a GitHub PAT with repo access. Drafts save to your
-                browser; publishing commits to writing.ts.
+                browser; publishing commits to posts.ts.
               </p>
             )}
             <button
@@ -413,16 +529,15 @@ export default function Admin() {
               </code>{" "}
               as you type. Publishing moves the post into{" "}
               <code className="text-xs bg-parchment px-1 py-0.5 rounded font-mono">
-                writing.ts
+                posts.ts
               </code>{" "}
               and deletes the draft file.
             </>
           ) : (
             <>
-              Drafts auto-save to your browser. Publishing commits the post
-              to{" "}
+              Drafts auto-save to your browser. Publishing commits the post to{" "}
               <code className="text-xs bg-parchment px-1 py-0.5 rounded font-mono">
-                writing.ts
+                posts.ts
               </code>{" "}
               in your GitHub repo, triggering a rebuild.
             </>

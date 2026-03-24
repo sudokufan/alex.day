@@ -1,16 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
 
 const links = [
-  { to: "/", label: "about" },
-  { to: "/projects", label: "projects" },
-  { to: "/writing", label: "writing" },
+  // { to: "/projects", label: "projects" },
   { to: "/now", label: "now" },
-  { to: "/top", label: "top" },
   { to: "/uses", label: "uses" },
-  { to: "/stats", label: "stats" },
+  { to: "/top", label: "rushmores" },
+  { to: "/posts", label: "posts" },
 ];
 
-export default function Nav() {
+export default function Header() {
   return (
     <header className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-4 pb-12 border-b border-parchment">
       <Link

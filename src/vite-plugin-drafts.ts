@@ -1,9 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
+import { config } from "dotenv";
 import type { Plugin, ViteDevServer } from "vite";
 
+config(); // Load .env into process.env
+
 const DRAFTS_DIR = path.resolve("src/drafts");
-const WRITING_FILE = path.resolve("src/content/writing.ts");
+const WRITING_FILE = path.resolve("src/content/posts.ts");
 
 function ensureDraftsDir() {
   if (!fs.existsSync(DRAFTS_DIR)) {
@@ -77,7 +80,7 @@ export default function draftsPlugin(): Plugin {
           const publishMatch = url.match(/^\/api\/drafts\/([^/]+)\/publish$/);
           const slugMatch = url.match(/^\/api\/drafts\/([^/]+)$/);
 
-          // POST /api/drafts/:slug/publish — publish a draft to writing.ts
+          // POST /api/drafts/:slug/publish — publish a draft to posts.ts
           if (publishMatch && req.method === "POST") {
             const slug = decodeURIComponent(publishMatch[1]);
             const filePath = path.join(DRAFTS_DIR, `${slug}.json`);

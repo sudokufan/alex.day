@@ -28,16 +28,6 @@ export interface UsesCategory {
   items: UsesItem[];
 }
 
-export interface Stat {
-  label: string;
-  value: string;
-}
-
-export interface StatCategory {
-  category: string;
-  stats: Stat[];
-}
-
 export interface NowSection {
   heading: string;
   items: string[];
