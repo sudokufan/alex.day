@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { posts } from "../content/writing";
+import { posts } from "../content/posts";
 import { formatDate } from "../lib/formatDate";
 import PageTransition from "../components/PageTransition";
 
@@ -32,7 +32,7 @@ export default function Writing() {
         {posts.map((post) => (
           <motion.article key={post.slug} variants={item}>
             <Link
-              to={`/writing/${post.slug}`}
+              to={`/posts/${post.slug}`}
               className="group block"
             >
               <h2 className="text-xl font-serif text-ink group-hover:text-accent transition-colors duration-200">

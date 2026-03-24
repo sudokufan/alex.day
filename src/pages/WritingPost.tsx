@@ -1,6 +1,6 @@
 import { useParams, Link, Navigate } from "react-router-dom";
 import Markdown from "react-markdown";
-import { posts } from "../content/writing";
+import { posts } from "../content/posts";
 import { formatDate } from "../lib/formatDate";
 import PageTransition from "../components/PageTransition";
 
@@ -9,7 +9,7 @@ export default function WritingPost() {
   const post = posts.find((p) => p.slug === slug);
 
   if (!post) {
-    return <Navigate to="/writing" replace />;
+    return <Navigate to="/posts" replace />;
   }
 
   return (
@@ -28,7 +28,7 @@ export default function WritingPost() {
         </div>
         <div className="mt-16 pt-8 border-t border-parchment">
           <Link
-            to="/writing"
+            to="/posts"
             className="font-sans text-sm text-accent hover:text-accent-hover underline underline-offset-4 transition-colors duration-200"
           >
             &larr; Back to writing

@@ -1,32 +1,29 @@
 import type { NowSection } from "../lib/types";
 
 export const now = {
-  lastUpdated: "2026-03-20",
+  lastUpdated: "2026-03-24",
   sections: [
     {
-      heading: "Working on",
+      heading: "music",
       items: [
-        "Building this personal site",
-        "A long-form essay about attention and craft",
+        "My new album The Stranger came out March 24th (today, at the time of writing). It's nice, I like it.",
       ],
     },
     {
-      heading: "Reading",
+      heading: "work",
       items: [
-        "Jayber Crow by Wendell Berry",
-        "Four Thousand Weeks by Oliver Burkeman",
+        "I'm currently unemployed, though I'm in process with a couple places. There are cool opportunities in the world and I'll land one eventually, just not sure how long it'll take before I do so.",
       ],
     },
     {
-      heading: "Thinking about",
+      heading: "shows",
       items: [
-        "What intentional technology use actually looks like day-to-day",
-        "The difference between productivity and meaningful work",
+        "G and I are marathoning Slow Horses and are just starting season 5. Highly recommended.",
       ],
     },
     {
-      heading: "Located",
-      items: ["Denver, CO"],
+      heading: "currently located:",
+      items: ["Bath, England"],
     },
   ] satisfies NowSection[],
 };

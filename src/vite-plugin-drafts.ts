@@ -7,6 +7,7 @@ config(); // Load .env into process.env
 
 const DRAFTS_DIR = path.resolve("src/drafts");
 const WRITING_FILE = path.resolve("src/content/posts.ts");
+const UPLOADS_DIR = path.resolve("public/uploads");
 
 function ensureDraftsDir() {
   if (!fs.existsSync(DRAFTS_DIR)) {
@@ -21,6 +22,21 @@ function readBody(req: import("node:http").IncomingMessage): Promise<string> {
     req.on("end", () => resolve(data));
     req.on("error", reject);
   });
+}
+
+function readRawBody(req: import("node:http").IncomingMessage): Promise<Buffer> {
+  return new Promise((resolve, reject) => {
+    const chunks: Buffer[] = [];
+    req.on("data", (chunk: Buffer) => chunks.push(chunk));
+    req.on("end", () => resolve(Buffer.concat(chunks)));
+    req.on("error", reject);
+  });
+}
+
+function ensureUploadsDir() {
+  if (!fs.existsSync(UPLOADS_DIR)) {
+    fs.mkdirSync(UPLOADS_DIR, { recursive: true });
+  }
 }
 
 function escapeTemplateString(str: string): string {
@@ -52,6 +68,24 @@ export default function draftsPlugin(): Plugin {
               res.statusCode = 401;
               res.end(JSON.stringify({ error: "Wrong password" }));
             }
+            return;
+          }
+
+          // POST /api/upload — save an image to public/uploads
+          if (url === "/api/upload" && req.method === "POST") {
+            ensureUploadsDir();
+            const raw = await readRawBody(req);
+
+            // Extract filename from Content-Disposition or query param
+            const contentDisp = req.headers["x-filename"] as string | undefined;
+            const filename = contentDisp ?? `img-${Date.now()}.png`;
+
+            // Sanitize filename
+            const safe = filename.replace(/[^a-zA-Z0-9._-]/g, "-");
+            const filePath = path.join(UPLOADS_DIR, safe);
+
+            fs.writeFileSync(filePath, raw);
+            res.end(JSON.stringify({ url: `/uploads/${safe}` }));
             return;
           }
 

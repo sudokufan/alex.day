@@ -38,7 +38,7 @@ interface FormatAction {
 const formatActions: FormatAction[] = [
   { label: "Bold", icon: "B", prefix: "**", suffix: "**" },
   { label: "Italic", icon: "I", prefix: "*", suffix: "*" },
-  { label: "Heading", icon: "H", prefix: "## ", suffix: "", block: true },
+  { label: "Heading", icon: "H2", prefix: "## ", suffix: "", block: true },
   { label: "Link", icon: "🔗", prefix: "[", suffix: "](url)" },
   { label: "Quote", icon: '"', prefix: "> ", suffix: "", block: true },
   { label: "List", icon: "•", prefix: "- ", suffix: "", block: true },
@@ -110,6 +110,40 @@ function FormattingToolbar({
     });
   };
 
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const [uploading, setUploading] = useState(false);
+
+  const handleImageUpload = async (file: File) => {
+    setUploading(true);
+    try {
+      const res = await fetch("/api/upload", {
+        method: "POST",
+        headers: { "X-Filename": file.name },
+        body: file,
+      });
+      if (!res.ok) throw new Error("Upload failed");
+      const { url } = await res.json();
+
+      const ta = textareaRef.current;
+      if (!ta) return;
+      const pos = ta.selectionStart;
+      const imgMarkdown = `\n![${file.name}](${url})\n`;
+      const newText = body.slice(0, pos) + imgMarkdown + body.slice(pos);
+      setBody(newText);
+      onchange();
+
+      requestAnimationFrame(() => {
+        ta.focus();
+        const newPos = pos + imgMarkdown.length;
+        ta.setSelectionRange(newPos, newPos);
+      });
+    } catch {
+      // silently fail
+    } finally {
+      setUploading(false);
+    }
+  };
+
   return (
     <div className="flex gap-1 mb-1.5">
       {formatActions.map((action) => (
@@ -125,6 +159,26 @@ function FormattingToolbar({
           {action.icon}
         </button>
       ))}
+      <button
+        type="button"
+        onClick={() => fileInputRef.current?.click()}
+        title="Insert image"
+        disabled={uploading}
+        className="px-2 py-1 text-xs rounded border border-parchment bg-warm-white text-stone hover:text-ink hover:border-accent transition-colors duration-150 disabled:opacity-40"
+      >
+        {uploading ? "..." : "📷"}
+      </button>
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        className="hidden"
+        onChange={(e) => {
+          const file = e.target.files?.[0];
+          if (file) handleImageUpload(file);
+          e.target.value = "";
+        }}
+      />
     </div>
   );
 }
