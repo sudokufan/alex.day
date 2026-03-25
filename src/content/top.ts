@@ -65,7 +65,7 @@ export const topLists: MountRushmore[] = [
       { name: "il Pizzaiuolo", detail: "Florence, Italy" },
       { name: "Fradiavolo", detail: "Various, Italy" },
       { name: "Pizza Pilgrims", detail: "Various, England" },
-      { name: "Pizza Punks", detail: "Various, UK" },
+      { name: "Purezza", detail: "Various, England" },
     ],
   },
   {
