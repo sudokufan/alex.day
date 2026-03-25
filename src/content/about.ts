@@ -7,6 +7,6 @@ export const about = {
   ],
   links: [
     { label: "GitHub", url: "https://github.com/sudokufan" },
-    { label: "Email", url: "mailto:alexrichardgeorge@gmail.com" },
+    { label: "Email", url: "mailto:aday@hey.com" },
   ],
 };
