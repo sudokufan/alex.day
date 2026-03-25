@@ -25,7 +25,7 @@ export const topLists: MountRushmore[] = [
       { name: "Thriller", detail: "Michael Jackson" },
       { name: "Rumours", detail: "Fleetwood Mac" },
       { name: "Costello Music", detail: "The Fratellis" },
-      { name: "Welcome to the Black Parade", detail: "My Chemical Romance" },
+      { name: "The Black Parade", detail: "My Chemical Romance" },
     ],
   },
   {
