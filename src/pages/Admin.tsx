@@ -413,6 +413,8 @@ function DraftEditor({
   );
 }
 
+const SESSION_KEY = "alex-day-admin";
+
 export default function Admin() {
   const [authed, setAuthed] = useState(false);
   const [password, setPassword] = useState("");
@@ -420,10 +422,25 @@ export default function Admin() {
   const [drafts, setDrafts] = useState<Post[]>([]);
   const [editing, setEditing] = useState<string | null>(null);
   const [creating, setCreating] = useState(false);
+  const [checking, setChecking] = useState(true);
 
   const loadDrafts = useCallback(async () => {
     const d = await getDrafts();
     setDrafts(d);
+  }, []);
+
+  // Try to restore session from localStorage
+  useEffect(() => {
+    const saved = localStorage.getItem(SESSION_KEY);
+    if (saved) {
+      authenticate(saved).then((ok) => {
+        if (ok) setAuthed(true);
+        else localStorage.removeItem(SESSION_KEY);
+        setChecking(false);
+      });
+    } else {
+      setChecking(false);
+    }
   }, []);
 
   useEffect(() => {
@@ -437,6 +454,7 @@ export default function Admin() {
     try {
       const ok = await authenticate(password);
       if (ok) {
+        localStorage.setItem(SESSION_KEY, password);
         setAuthed(true);
         setError(false);
       } else {
@@ -446,6 +464,10 @@ export default function Admin() {
       setError(true);
     }
   };
+
+  if (checking) {
+    return null;
+  }
 
   if (!authed) {
     return (

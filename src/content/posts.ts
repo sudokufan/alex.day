@@ -2,6 +2,64 @@ import type { Post } from "../lib/types";
 
 export const posts: Post[] = [
   {
+    slug: "the-bells-of-death",
+    title: "The bells of death",
+    date: "2024-12-22",
+    summary:
+      "Clickbait title: \"Lady Gaga's a FAKE and Wham RUINED my Christmas!\"",
+    body: `Georgia woke me up this morning like it was Christmas. (I promise these won’t all start with Georgia waking me up pretending it’s a different day than it is.)
+
+There were lights strewn across the living room, assorted samples of paper out on the table to wrap presents with, and the Christmas bells greeting me on the speakers as I walked downstairs. One particular set of Christmas bells. The bells I try to hide from every year.
+
+But it was too late.
+
+I’d been whammed.
+
+It’s not the first time I’ve been whammed this year. G recently took me to Cardiff on a surprise date, which started with her taking us 20 minutes in the wrong direction just so she could take a picture of me outside this cafe.
+
+![IMG_1048.jpeg](/uploads/IMG_1048.jpeg)
+*We didn’t even eat there. We doubled back to go somewhere else.*
+
+I don’t enjoy going to gigs if I don’t know the artist well. I find it a bit dissociative seeing everyone around me connecting real hard with an event that holds no meaning to me. It’s why I don’t enjoy going to festivals, aside from all the mud and being outdoors; there’s usually only two or three acts on a festival lineup that I like enough to see, so I’d rather just see them on their own tours, in venues with roofs, and go to bed at a reasonable hour.
+
+It therefore follows that my favourite kind of festival would be TribFest, a festival full of tribute bands. This is the best festival for many reasons:
+
+- You get to see all the best acts in the world, living or dead, on the same weekend
+- You see all those incredible acts for much cheaper than it would cost to see any one of them for real
+- A lot of them are probably better than the real acts - the Rolling Stones in their prime, for example
+- You get to enjoy names like ‘Oasish’ and ‘Nirvanah’ and ‘Fake That‘.
+
+(Incidentally, I told someone recently that I’d love to go to TribFest, and they laughed and told me that ‘trib’ is slang for scissoring. So if anyone’s thinking of a Christmas present for me, either of those events sound great.)
+
+Georgia already knows all this. That’s why she took me to Cardiff, where she’d booked us tickets to see Lady Gaga. To be more precise, she’d booked us tickets to see ‘Miss Lady J Gaga’, who played all of Gaga’s hits (and even, I was delighted to hear, some b-sides from Artpop) at a bottomless prosecco brunch in a nightclub in the middle of the afternoon for about ten pounds a head.
+
+![IMG_1051.jpeg](/uploads/IMG_1051.jpeg)
+*G’s favourite band is My Chemical Romance, so next year I’ll return the favour - I hear ‘The Black Charade’ is touring.*
+
+Right before the gig, G needed a wee, so we popped into Marks & Spencer. Those of you that have done an escape room with me will know that, the moment we enter the room, you will turn around and see me in whatever item of clothing has been left inside. There are many pictures of me smiling with friends under large clocks while wearing a lab coat or a cowboy hat. I tell you this to help you understand that, by the time Georgia emerged from the loo in Marks & Spencer, I had found and acquired a poncho. I then walked into the nightclub and immediately gushed to the girl on the door about how I’d just bought the poncho five minutes ago and now feel like my best self. I’ve worn it most days since, including to work, and now people at work call me Clint.
+
+![IMG_0470.jpeg](/uploads/IMG_0470.jpeg)
+*Look how happy he was.*
+
+After the show, Georgia and I wandered around Cardiff’s Christmas market, and that was where I first heard the bells. The Christmas bells of death. Two years ago, one of my work colleagues introduced me to ‘Whammageddon’ - a game whereby you attempt to make it to Christmas Day without hearing *Last Christmas* by Wham. I achieved it that year, mainly by avoiding any opportunity to expose myself to the outside world, but last year it was Christmas Number One and it was fucking everywhere. This year, I got whammed in Cardiff, at the Christmas market, in my new poncho, right after letting my guard down and putting my paws up. When the bells tolled, I was a sitting duck.
+
+For those of you still in the game, you have three days left. Best of luck, soldiers.
+
+## End step
+
+- Movie I watched recently - *Wicked*, the musical, is so wonderful and charming and I can’t wait to see it again. My friend Pete recently said he was surprised I liked musicals (inadvertently revealing that he didn’t read the last newsletter, in which I gushed about seeing Mean Girls in London for my birthday) - as someone who loves consuming and creating music, musicals are the platonic ideal for me. You get to write beautiful songs and then have people more talented than you actually sing them. I’d rather write musicals than release albums, but alas, I have to work with what’s available.
+
+- Game I played recently - *Soul Reaver*, a game I played back on the original PlayStation, was recently remastered for modern consoles and has been a really fun nostalgia trip.
+
+- Song I heard recently - I’ve listened to the song *For Good*, from *Wicked*, about fifty times this week, because it captures exactly how I’m feeling in my life at the moment. Some of the cast performed it as part of NPR’s Tiny Desk series, which you can listen to [here](https://youtu.be/AFgWCQZDoCI) if you’d like. The full tiny desk is worth watching. (As is *Wicked* itself!)
+
+Our Christmas will be a quiet affair. G and I agreed to get each other a single present each. No faff. She’s getting me a new bullet journal, as she does every year. I can’t tell you what I’m getting her because, allegedly, she reads these.
+
+Have a good one,
+
+Alex`,
+  },
+  {
     slug: "christmas-and-birthday",
     title: "Christmas and birthday",
     date: "2024-10-28",
