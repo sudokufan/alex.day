@@ -34,7 +34,7 @@ export const topLists: MountRushmore[] = [
       { name: "A Million Miles In A Thousand Years", detail: "Donald Miller" },
       { name: "Peace Is Every Step", detail: "Thich Nhat Hanh" },
       { name: "You Are Not A Gadget", detail: "Jaron Lanier" },
-      { name: "", detail: "" },
+      { name: "The Four Hour Workweek", detail: "Tim Ferriss" },
     ],
   },
   {
@@ -52,7 +52,7 @@ export const topLists: MountRushmore[] = [
       { name: "About Time", detail: "Richard Curtis" },
       { name: "Tick, Tick... Boom!", detail: "Lin-Manuel Miranda" },
       { name: "Wall•E", detail: "Andrew Stanton" },
-      { name: "The Truman Show", detail: "Peter Weir" },
+      { name: "The Avengers", detail: "Joss Whedon" },
     ],
   },
   {
@@ -62,6 +62,42 @@ export const topLists: MountRushmore[] = [
       { name: "Hamilton", detail: "Lin-Manuel Miranda" },
       { name: "Groundhog Day", detail: "Tim Minchin" },
       { name: "Wicked", detail: "Stephen Schwartz" },
+    ],
+  },
+  // {
+  //   category: "Blogs",
+  //   items: [
+  //     { name: "Really Very Human" },
+  //     { name: "Panic World" },
+  //     { name: "Rhystic Studies" },
+  //     { name: "" },
+  //   ],
+  // },
+  {
+    category: "Podcasts",
+    items: [
+      { name: "Reply All" },
+      { name: "If Books Could Kill" },
+      { name: "Hyperfixed" },
+      { name: "The Moth" },
+    ],
+  },
+  {
+    category: "YouTubers",
+    items: [
+      { name: "Rhystic Studies" },
+      { name: "Summoning Salt" },
+      { name: "hbomberguy" },
+      { name: "ContraPoints" },
+    ],
+  },
+  {
+    category: "Magic Sets",
+    items: [
+      { name: "Innistrad", detail: "2012" },
+      { name: "Ixalan", detail: "2017" },
+      { name: "Ikoria: Lair of the Behemoths", detail: "2020" },
+      { name: "Kamigawa: Neon Dynasty", detail: "2022" },
     ],
   },
   {
@@ -80,42 +116,6 @@ export const topLists: MountRushmore[] = [
       { name: "Caramelised Onions" },
       { name: "Mushrooms" },
       { name: "Pesto" },
-    ],
-  },
-  // {
-  //   category: "Blogs",
-  //   items: [
-  //     { name: "Really Very Human" },
-  //     { name: "Panic World" },
-  //     { name: "Rhystic Studies" },
-  //     { name: "" },
-  //   ],
-  // },
-  {
-    category: "YouTubers",
-    items: [
-      { name: "Rhystic Studies" },
-      { name: "Summoning Salt" },
-      { name: "hbomberguy" },
-      { name: "ContraPoints" },
-    ],
-  },
-  {
-    category: "Podcasts",
-    items: [
-      { name: "Reply All" },
-      { name: "If Books Could Kill" },
-      { name: "Hyperfixed" },
-      { name: "The Moth" },
-    ],
-  },
-  {
-    category: "Magic Sets",
-    items: [
-      { name: "Innistrad", detail: "2012" },
-      { name: "Ixalan", detail: "2017" },
-      { name: "Ikoria: Lair of the Behemoths", detail: "2020" },
-      { name: "Kamigawa: Neon Dynasty", detail: "2022" },
     ],
   },
 ];
