@@ -38,3 +38,12 @@ export interface Project {
   date: string;
   description: string;
 }
+
+export interface Release {
+  title: string;
+  date: string;
+  artwork: string;
+  bandcampUrl: string;
+  spotifyUrl: string;
+  appleMusicUrl: string;
+}

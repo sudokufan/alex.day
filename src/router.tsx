@@ -8,6 +8,7 @@ import Top from "./pages/Top";
 import Uses from "./pages/Uses";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
+import Music from "./pages/Music";
 import Admin from "./pages/Admin";
 
 export const router = createBrowserRouter([
@@ -18,6 +19,7 @@ export const router = createBrowserRouter([
       { path: "projects", element: <Projects /> },
       { path: "posts", element: <Writing /> },
       { path: "posts/:slug", element: <WritingPost /> },
+      { path: "music", element: <Music /> },
       { path: "now", element: <Now /> },
       { path: "top", element: <Top /> },
       { path: "uses", element: <Uses /> },
