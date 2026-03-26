@@ -7,6 +7,11 @@ export const timeline: TimelineEntry[] = [
     title: "Graduated from university",
     description: "Got a first",
   },
+  {
+    year: 2023,
+    title:
+      "Discovered I'm a credited writer on Meghan Thee Stallion's \"Kitty Kat\"",
+  },
   { year: 2021, title: 'Released "Relax! Nothing Is Under Control!"' },
   { year: 2020, title: "First full-time job" },
   { year: 2019, title: 'Released "Sunset"' },
@@ -24,8 +29,9 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2017,
-    title: "Bought 6.5 bitcoin",
-    description: "Tip-off from a former monk",
+    title:
+      "A former monk tells me to buy Bitcoin on the way home from a retreat",
+    description: "I buy six Bitcoin that year (I don't have them anymore)",
   },
   { year: 2017, title: "Bought a narrowboat" },
   { year: 2016, title: 'Released "Split Infinities"' },
@@ -77,6 +83,11 @@ export const timeline: TimelineEntry[] = [
     year: 2011,
     title: 'Released "Still Got Legs"',
     description: "Second Chameleon Circuit album",
+  },
+  {
+    year: 2011,
+    title: "Made a video of me and a mate wandering around a Walmart",
+    description: "Got a million views in a week",
   },
   {
     year: 2009,

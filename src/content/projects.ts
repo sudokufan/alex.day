@@ -16,43 +16,31 @@ export const projects: Project[] = [
   {
     title: "Chameleon Circuit",
     date: "2008-2011",
-    description:
-      "A short paragraph about what this project is and why it's meaningful to you.",
+    description: "",
   },
   {
     title: "Sons of Admirals",
     date: "2010",
-    description:
-      "A short paragraph about what this project is and why it's meaningful to you.",
+    description: "",
   },
   {
     title: "The Underground Storyteller",
     date: "2014",
-    description:
-      "A short paragraph about what this project is and why it's meaningful to you.",
+    description: "",
   },
   {
     title: "Living and Dying on the Internet",
     date: "2014",
-    description:
-      "A short paragraph about what this project is and why it's meaningful to you.",
+    description: "",
   },
   {
     title: "Sopio",
     date: "2014",
-    description:
-      "A short paragraph about what this project is and why it's meaningful to you.",
+    description: "",
   },
   {
     title: "Lifescouts",
     date: "2014",
-    description:
-      "A short paragraph about what this project is and why it's meaningful to you.",
-  },
-  {
-    title: "dead•trees",
-    date: "2014",
-    description:
-      "A short paragraph about what this project is and why it's meaningful to you.",
+    description: "",
   },
 ];
