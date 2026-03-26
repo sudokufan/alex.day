@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { about } from "../content/about";
 import profileImg from "../assets/profile.jpeg";
 import PageTransition from "../components/PageTransition";
-import { BookIcon, TvIcon, GamepadIcon, GitHubIcon, EnvelopeIcon } from "../components/icons";
+import { BookIcon, TvIcon, GamepadIcon } from "../components/icons";
 
 export default function About() {
   return (
     <PageTransition>
-      <div className="flex flex-col sm:flex-row gap-8 sm:gap-10 items-start mb-8">
+      <div className="flex flex-col sm:flex-row gap-8 sm:gap-16 items-start mb-8">
         <div className="shrink-0 sm:w-36">
           <motion.div
             className="w-28 h-28 sm:w-36 sm:h-36 rounded-full border-2 border-parchment overflow-hidden"
@@ -27,18 +27,17 @@ export default function About() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.25, duration: 0.4 }}
           >
-            <li>
-              <a
-                href="https://github.com/sudokufan"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-ink transition-colors duration-200"
-              >
-                <GitHubIcon /> <span className="italic">sudokufan</span>
-              </a>
+            <li className="flex items-center mt-6 gap-2">
+              <BookIcon />{" "}
+              <span className="italic">{about.currently.reading}</span>
             </li>
             <li className="flex items-center gap-2">
-              <EnvelopeIcon /> <span className="italic">aday [at] hey [dot] com</span>
+              <TvIcon />{" "}
+              <span className="italic">{about.currently.watching}</span>
+            </li>
+            <li className="flex items-center gap-2">
+              <GamepadIcon />{" "}
+              <span className="italic">{about.currently.playing}</span>
             </li>
           </motion.ul>
         </div>
@@ -53,24 +52,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <motion.div
-        className="mt-10 sm:pl-[calc(9rem+2.5rem)] font-sans text-xs text-warm-gray"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.25, duration: 0.4 }}
-      >
-        <ul className="space-y-2">
-          <li className="flex items-center gap-2">
-            <BookIcon /> <span className="italic">{about.currently.reading}</span>
-          </li>
-          <li className="flex items-center gap-2">
-            <TvIcon /> <span className="italic">{about.currently.watching}</span>
-          </li>
-          <li className="flex items-center gap-2">
-            <GamepadIcon /> <span className="italic">{about.currently.playing}</span>
-          </li>
-        </ul>
-      </motion.div>
     </PageTransition>
   );
 }

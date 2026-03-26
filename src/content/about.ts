@@ -6,7 +6,7 @@ export const about = {
     "I've been doing this for a while.",
   ],
   currently: {
-    reading: "The Trading Game - Gary Stevenson",
+    reading: "The Trading Game",
     watching: "Slow Horses",
     playing: "Pokémon SoulSilver",
   },

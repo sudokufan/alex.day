@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function RootLayout() {
   return (
-    <div className="max-w-2xl mx-auto px-6 py-12">
+    <div className="max-w-3xl mx-auto px-6 py-12">
       <Header />
       <main className="pt-12">
         <Outlet />

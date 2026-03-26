@@ -47,3 +47,9 @@ export interface Release {
   spotifyUrl: string;
   appleMusicUrl: string;
 }
+
+export interface TimelineEntry {
+  year: number;
+  title: string;
+  description?: string;
+}
