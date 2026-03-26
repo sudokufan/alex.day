@@ -3,6 +3,26 @@ import { formatDate } from "../lib/formatDate";
 import PageTransition from "../components/PageTransition";
 import SectionReveal from "../components/SectionReveal";
 
+function linkify(text: string) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  const parts = text.split(urlRegex);
+  return parts.map((part, i) =>
+    urlRegex.test(part) ? (
+      <a
+        key={i}
+        href={part}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-accent hover:text-accent-hover underline underline-offset-2 transition-colors duration-200"
+      >
+        {part.replace(/^https?:\/\//, "")}
+      </a>
+    ) : (
+      part
+    ),
+  );
+}
+
 export default function Now() {
   return (
     <PageTransition>
@@ -20,7 +40,7 @@ export default function Now() {
               {section.items.map((item) => (
                 <li key={item} className="flex items-baseline gap-3">
                   <span className="text-parchment select-none">&bull;</span>
-                  {item}
+                  <span>{linkify(item)}</span>
                 </li>
               ))}
             </ul>
