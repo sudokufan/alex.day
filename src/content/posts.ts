@@ -99,7 +99,7 @@ Once a year, the people who make Magic get on stage and talk high-level about th
 
 So I was awake at 5:45 on Saturday morning, firing up the projector to watch the panel on our home cinema.
 
-I then spent the day playing Magic in my third place, sympathetically nodding while a bunch of Magic fans ranted that the new direction of the game proved it was all going to shit. I would describe them as *dramatically* unhappy. Ah well. No-one hates more than a fan. ð¤·ââï¸ 
+I then spent the day playing Magic in my third place, sympathetically nodding while a bunch of Magic fans ranted that the new direction of the game proved it was all going to shit. I would describe them as *dramatically* unhappy. Ah well. No-one hates more than a fan. 🤷‍♂️
 
 Sunday saw me attend the Mean Girls musical in London, a trip Georgia organised for my 35th birthday back in April. This means it was Christmas *and* my birthday this weekend. I fell in love with the Mean Girls movie when it came out, watching it three times in quick succession with various people. Sat in the front row, seeing it live, felt like seeing a band I love play one of their albums all the way through. I had a phenomenal time, not just because of the show but because I got to visit Pizza Pilgrims and Doughnut Time, my favourite pizza and doughnut places, which are only available in the capital.
 
@@ -112,7 +112,7 @@ Sunday saw me attend the Mean Girls musical in London, a trip Georgia organised 
 ![IMG_1005.jpeg](/uploads/IMG_1005.jpeg)
 *Small happy people!*
 
-Plus, G and I played more Magic on the train there. ð 
+Plus, G and I played more Magic on the train there. 😊
 Today I finished my first assignment for my final university module! For those unaware, I've so far studied:
 
 - *Introduction to Social Sciences*
@@ -167,7 +167,7 @@ Which brings me on to *you*, some of the other people I spend time with: there a
 - Seven of you are musicians
 
 I was touched at the responses to the last newsletter. Maureen sent me almost an entire newsletter-length text of her own back to me, with pictures updating me on all aspects of her life. Eden also sent pictures (and demanded credit for encouraging me to start this in the first place; I trust this is sufficient). Peter emailed back telling me he also swings kettlebells. And Evy signed up happily but warned me in no uncertain terms not to write too many of these because she's 
-*sick of her friends starting newsletters*. So, with that accountability in mind, I'll wrap up the main chunk here. Thanks for reading ð 
+*sick of her friends starting newsletters*. So, with that accountability in mind, I'll wrap up the main chunk here. Thanks for reading 😊
 
 ## End step
 
@@ -224,7 +224,7 @@ The point is, I'd rather people tell me when they don't have the time to read it
 
 - Song I loved recently - *Happy Mistake (Lady Gaga)*. Gaga just released a new album of jazz covers, Harlequin, but amongst them was this original song, which was by far my favourite; I particularly love the lilting repeated melody in the chorus.
 
-Thanks for reading. ð It really means a lot to have you here. If you promise not to leave I'll promise to write things I think are worth your time.
+Thanks for reading. 😊 It really means a lot to have you here. If you promise not to leave I'll promise to write things I think are worth your time.
 
 Take it easy,
 
