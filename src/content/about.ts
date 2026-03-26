@@ -5,8 +5,9 @@ export const about = {
     "You'll usually find me with a smile on my face, a Magic: the Gathering card in my hand and a slice of pizza in my mouth.",
     "I've been doing this for a while.",
   ],
-  links: [
-    { label: "GitHub", url: "https://github.com/sudokufan" },
-    { label: "Email", url: "mailto:aday@hey.com" },
-  ],
+  currently: {
+    reading: "The Trading Game - Gary Stevenson",
+    watching: "Slow Horses",
+    playing: "Pokémon SoulSilver",
+  },
 };
