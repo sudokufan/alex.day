@@ -8,6 +8,11 @@ export const timeline: TimelineEntry[] = [
     description: "Got a first",
   },
   {
+    year: 2024,
+    title: "Bought a poncho",
+    description: "everyone at work started calling me 'Clint'",
+  },
+  {
     year: 2023,
     title:
       "Discovered I'm a credited writer on Meghan Thee Stallion's \"Kitty Kat\"",
