@@ -6,6 +6,7 @@ const links = [
   // { to: "/uses", label: "uses" },
   { to: "/music", label: "music" },
   { to: "/top", label: "rushmores" },
+  // { to: "/timeline", label: "timeline" },
   { to: "/posts", label: "posts" },
 ];
 
@@ -28,7 +29,7 @@ export default function Header() {
               `font-sans text-sm transition-colors duration-200 ${
                 isActive
                   ? "text-ink underline underline-offset-4 decoration-accent"
-                  : "text-stone hover:text-ink"
+                  : "text-stone hover:text-accent"
               }`
             }
           >
