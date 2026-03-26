@@ -12,8 +12,18 @@ export const timeline: TimelineEntry[] = [
     title:
       "Discovered I'm a credited writer on Meghan Thee Stallion's \"Kitty Kat\"",
   },
-  { year: 2021, title: 'Released "Relax! Nothing Is Under Control!"' },
+  {
+    year: 2021,
+    title: "Broke office wing-eating record",
+    description: "25 cauliflower wings, held for less than a year",
+  },
+  {
+    year: 2021,
+    title: "Spent a month in Scotland",
+    description: "Isle of Bute",
+  },
   { year: 2020, title: "First full-time job" },
+  { year: 2019, title: "Moved to Bath", description: "Sold the boat" },
   { year: 2019, title: 'Released "Sunset"' },
   { year: 2019, title: "Retrained as a software developer" },
   { year: 2018, title: "Four months in Australia" },
@@ -33,8 +43,11 @@ export const timeline: TimelineEntry[] = [
       "A former monk tells me to buy Bitcoin on the way home from a retreat",
     description: "I buy six Bitcoin that year (I don't have them anymore)",
   },
-  { year: 2017, title: "Bought a narrowboat" },
-  { year: 2016, title: 'Released "Split Infinities"' },
+  {
+    year: 2017,
+    title: "Bought a narrowboat",
+    description: "Left London by chugging down the Thames",
+  },
   {
     year: 2016,
     title: "Competed in national lightsaber-fighting tournament",
@@ -42,8 +55,12 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2016,
-    title: "First Vipassana course",
-    description: "Ten-day silent meditation retreat",
+    title: "Completed ten-day silent meditation retreat",
+    description: "Meditating ten hours a day, with breaks to sleep and eat",
+  },
+  {
+    year: 2015,
+    title: "Moved into an abandoned police station for six months",
   },
   {
     year: 2015,
@@ -53,11 +70,6 @@ export const timeline: TimelineEntry[] = [
     year: 2015,
     title: "Climbed Mount Fuji with Buddhist monks",
     description: "A Plum Village road trip",
-  },
-  {
-    year: 2014,
-    title: 'Released "The Underground Storyteller"',
-    description: "First book",
   },
   {
     year: 2014,
@@ -77,12 +89,31 @@ export const timeline: TimelineEntry[] = [
   },
   { year: 2013, title: 'Released "Epigrams and Interludes"' },
   { year: 2012, title: '"Stupid Stupid" reached #25 in UK charts' },
-  { year: 2012, title: '"Lady Godiva" reached #15 in UK charts' },
-  { year: 2011, title: '"Forever Yours" reached #4 in UK charts' },
+  {
+    year: 2012,
+    title: "Filmed a music video on Doctor Who's TARDIS set in Cardiff",
+  },
+  {
+    year: 2012,
+    title: "Profile in Forbes magazine",
+    description: 'They call me "The Future of Music"',
+  },
   {
     year: 2011,
-    title: 'Released "Still Got Legs"',
-    description: "Second Chameleon Circuit album",
+    title: "December - 'Forever Yours' fell 108 places to #112 in UK charts",
+    description:
+      "Guinness World Records refuse to give me a second award for biggest fall in chart history",
+  },
+  {
+    year: 2011,
+    title: "December - Got a Guinness World Record",
+    description:
+      'My song "Forever Yours" reached #4 in UK charts, highest charting song by an unsigned artist',
+  },
+  {
+    year: 2011,
+    title: "Launched a card game",
+    description: "Sopio sold ten thousand units",
   },
   {
     year: 2011,
@@ -90,19 +121,45 @@ export const timeline: TimelineEntry[] = [
     description: "Got a million views in a week",
   },
   {
+    year: 2010,
+    title: "Got invited to the BAFTAs",
+    description:
+      "Gail from Coronation Street told me to thank my nan for watching",
+  },
+  {
+    year: 2010,
+    title: "Charity work in Zambia",
+    description: "Making online outreach videos for Worldvision",
+  },
+  { year: 2010, title: "Moved to London" },
+  {
     year: 2009,
     title: 'Released "Parrot Stories"',
     description: "First solo album",
   },
   {
     year: 2009,
-    title: 'Released "Chameleon Circuit"',
-    description: "Songs about Doctor Who",
+    title: 'Started "Chameleon Circuit"',
+    description: "A band singing about Doctor Who",
   },
   {
     year: 2008,
     title: "Won a BBC reality show",
     description: "Upstaged, cancelled after its only season",
   },
-  { year: 2006, title: "Started YouTube channel", description: "nerimon" },
+  {
+    year: 2008,
+    title: "Romford Recorder, my local newspaper, calls me 'website nut'",
+    description: "My nan frames it and puts it on her living room wall",
+  },
+  {
+    year: 2007,
+    title: "First holiday on my own",
+    description: "Spent a week in New York",
+  },
+  {
+    year: 2006,
+    title: "Started YouTube channel",
+    description: "nerimon",
+  },
 ];
