@@ -1,170 +1,195 @@
 import type { TimelineEntry } from "../lib/types";
 
 export const timeline: TimelineEntry[] = [
-  { year: 2026, title: 'Released "The Stranger"' },
   {
-    year: 2025,
-    title: "Graduated from university",
-    description: "Got a first",
+    year: 2006,
+    title: "Starts a YouTube channel",
+    description: "nerimon",
   },
   {
-    year: 2024,
-    title: "Bought a poncho",
-    description: "everyone at work started calling me 'Clint'",
+    year: 2008,
+    title: "Article about me in the Romford Recorder calls me a 'website nut'",
+    description: "My nan frames it and puts it on her living room wall",
   },
   {
-    year: 2023,
+    year: 2008,
+    title: "Wins a BBC reality show",
+    description: "Upstaged, cancelled after one season",
+  },
+  {
+    year: 2009,
+    title: 'Starts "Chameleon Circuit"',
+    description: "A band singing about Doctor Who",
+  },
+  {
+    year: 2009,
+    title: "Makes Chartjackers TV show for BBC2",
+    description:
+      "Releasing a charity song for Children in Need, which makes the UK Top 40",
+  },
+  { year: 2010, title: "Moves to London", description: "Bromley-by-Bow" },
+  {
+    year: 2010,
+    title: "Loses $410 in Las Vegas over three roulette spins",
+    description: "Down $700 overall for the trip",
+  },
+  {
+    year: 2010,
+    title: "Spends time doing charity work in Zambia",
+    description: "Making online outreach videos for Worldvision",
+  },
+  {
+    year: 2010,
+    title: "Goes to the BAFTAs",
+    description:
+      "Gail from Coronation Street told me to thank my nan for watching",
+  },
+  {
+    year: 2011,
+    title: "Makes a video of me and a mate wandering around a Walmart",
+    description: "Gets a million views in a week",
+  },
+  {
+    year: 2011,
     title:
-      "Discovered I'm a credited writer on Meghan Thee Stallion's \"Kitty Kat\"",
+      'My song "Forever Yours" reaches #4 in UK charts, raising £30,000 for Worldvision',
+    description:
+      "Earns me a Guinness World Record for the highest-charting single by an unsigned artist",
   },
   {
-    year: 2021,
-    title: "Broke office wing-eating record",
-    description: "25 cauliflower wings, held for less than a year",
+    year: 2011,
+    title:
+      '"Forever Yours" falls 108 places the week after release, from #4 to #112',
+    description: "Becomes the biggest drop in UK chart history",
   },
   {
-    year: 2021,
-    title: "Spent a month in Scotland",
-    description: "Isle of Bute",
+    year: 2012,
+    title: "Profile in Forbes magazine",
+    description: 'They call me "the future of music"',
   },
-  { year: 2020, title: "First full-time job" },
-  { year: 2019, title: "Moved to Bath", description: "Sold the boat" },
-  { year: 2019, title: 'Released "Sunset"' },
-  { year: 2019, title: "Retrained as a software developer" },
-  { year: 2018, title: "Four months in Australia" },
   {
-    year: 2018,
-    title: "Started university part-time",
-    description: "Psychology and Creative Writing @ The Open University",
+    year: 2012,
+    title: "Films a music video on Doctor Who's TARDIS set in Cardiff",
+  },
+  {
+    year: 2013,
+    title: "Interviews Kermit the Frog",
+    description: "Used a Muppet of myself made for me by the Muppet studio",
+  },
+  {
+    year: 2013,
+    title: "Gives TEDx talk in San Francsisco",
+    description: "The story of my Forever Yours campaign",
+  },
+  { year: 2013, title: "Reaches a million YouTube subscribers" },
+  {
+    year: 2014,
+    title: "Almost gets a TV show made",
+    description: "Secured for BBC Three the same week BBC Three is shut down",
+  },
+  {
+    year: 2014,
+    title: "Almost gets a publishing deal",
+    description: "Signed with Ebury and cancelled three months later",
+  },
+  {
+    year: 2014,
+    title: "Stays in a French Buddhist monastery",
+    description: "Thich Nhat Hanh's Plum Village monastery",
+  },
+  {
+    year: 2015,
+    title: "Stays at the base of Mount Fuji with Buddhist monks",
+  },
+  {
+    year: 2015,
+    title: "Three months' travel around Europe",
+    description: "Interrailing with my friend Sarah",
+  },
+  {
+    year: 2015,
+    title: "Moves into an abandoned police station for six months",
+  },
+  {
+    year: 2016,
+    title: "Completes a ten-day silent meditation retreat",
+    description:
+      "Meditating ten hours a day, with breaks only to eat and sleep",
+  },
+  {
+    year: 2016,
+    title: "Competes in national lightsaber-fighting tournament",
+    description: "Finish 13th, just outside the quarter-finals",
   },
   {
     year: 2017,
-    title: 'Released "Living and Dying on the Internet"',
-    description: "Second book",
+    title: "Moves on to a narrowboat",
+    description: "Leaving London by chugging down the Thames",
   },
   {
     year: 2017,
     title:
       "A former monk tells me to buy Bitcoin on the way home from a retreat",
-    description: "I buy six Bitcoin that year (I don't have them anymore)",
+    description: "I buy six Bitcoin that year; I now have zero",
   },
   {
-    year: 2017,
-    title: "Bought a narrowboat",
-    description: "Left London by chugging down the Thames",
+    year: 2018,
+    title: "Starts university part-time",
+    description: "Psychology and Creative Writing @ The Open University",
   },
   {
-    year: 2016,
-    title: "Competed in national lightsaber-fighting tournament",
-    description: "Finished 13th, just outside the quarter-finals",
+    year: 2018,
+    title: "Four months in Australia",
+    description: "Best Christmas ever",
   },
   {
-    year: 2016,
-    title: "Completed ten-day silent meditation retreat",
-    description: "Meditating ten hours a day, with breaks to sleep and eat",
+    year: 2019,
+    title: "Retrains as a software developer",
+    description: "Three months' intensive course at an academy in Bath",
+  },
+  { year: 2019, title: "Moves to Bath", description: "Gives up the boat" },
+  {
+    year: 2020,
+    title: "First full-time dev job",
+    description: "Junior Software Developer",
   },
   {
-    year: 2015,
-    title: "Moved into an abandoned police station for six months",
+    year: 2021,
+    title: "Spends a month in Scotland",
+    description: "Isle of Bute",
   },
   {
-    year: 2015,
-    title: "Three months' travelling around Europe",
+    year: 2021,
+    title: "Breaks the office wing-eating record",
+    description: "25 cauliflower wings at Brewdog, held for less than a year",
   },
   {
-    year: 2015,
-    title: "Climbed Mount Fuji with Buddhist monks",
-    description: "A Plum Village road trip",
+    year: 2022,
+    title: "Wins an office Mario Kart tournament",
   },
   {
-    year: 2014,
-    title: "Stayed with Buddhist monks in France",
-    description: "Thich Nhat Hanh's Plum Village monastery",
-  },
-  { year: 2013, title: "One million YouTube subscribers" },
-  {
-    year: 2013,
-    title: "TEDx talk in San Francsisco",
-    description: "The story of how I tried to get Forever Yours to number one",
+    year: 2023,
+    title:
+      'Sees name as credited writer on Meghan Thee Stallion\'s "Kitty Kat"',
+    description: "Still don't know why",
   },
   {
-    year: 2013,
-    title: "Interviewed Kermit the Frog",
-    description: "Used a Muppet of myself made for me by the Muppet studio",
-  },
-  { year: 2013, title: 'Released "Epigrams and Interludes"' },
-  { year: 2012, title: '"Stupid Stupid" reached #25 in UK charts' },
-  {
-    year: 2012,
-    title: "Filmed a music video on Doctor Who's TARDIS set in Cardiff",
+    year: 2024,
+    title: "First job as a senior frontend developer",
   },
   {
-    year: 2012,
-    title: "Profile in Forbes magazine",
-    description: 'They call me "The Future of Music"',
+    year: 2024,
+    title: "Buys a poncho",
+    description: "People at work start calling me 'Clint'",
   },
   {
-    year: 2011,
-    title: "December - 'Forever Yours' fell 108 places to #112 in UK charts",
-    description:
-      "Guinness World Records refuse to give me a second award for biggest fall in chart history",
+    year: 2025,
+    title: "Graduates from university",
+    description: "Got a first",
   },
   {
-    year: 2011,
-    title: "December - Got a Guinness World Record",
-    description:
-      'My song "Forever Yours" reached #4 in UK charts, highest charting song by an unsigned artist',
-  },
-  {
-    year: 2011,
-    title: "Launched a card game",
-    description: "Sopio sold ten thousand units",
-  },
-  {
-    year: 2011,
-    title: "Made a video of me and a mate wandering around a Walmart",
-    description: "Got a million views in a week",
-  },
-  {
-    year: 2010,
-    title: "Got invited to the BAFTAs",
-    description:
-      "Gail from Coronation Street told me to thank my nan for watching",
-  },
-  {
-    year: 2010,
-    title: "Charity work in Zambia",
-    description: "Making online outreach videos for Worldvision",
-  },
-  { year: 2010, title: "Moved to London" },
-  {
-    year: 2009,
-    title: 'Released "Parrot Stories"',
-    description: "First solo album",
-  },
-  {
-    year: 2009,
-    title: 'Started "Chameleon Circuit"',
-    description: "A band singing about Doctor Who",
-  },
-  {
-    year: 2008,
-    title: "Won a BBC reality show",
-    description: "Upstaged, cancelled after its only season",
-  },
-  {
-    year: 2008,
-    title: "Romford Recorder, my local newspaper, calls me 'website nut'",
-    description: "My nan frames it and puts it on her living room wall",
-  },
-  {
-    year: 2007,
-    title: "First holiday on my own",
-    description: "Spent a week in New York",
-  },
-  {
-    year: 2006,
-    title: "Started YouTube channel",
-    description: "nerimon",
+    year: 2026,
+    title: "Buys alex.day",
+    description: "My lifelong dream domain",
   },
 ];

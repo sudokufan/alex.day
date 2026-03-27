@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import Music from "./pages/Music";
 import Timeline from "./pages/Timeline";
+import Videos from "./pages/Videos";
 import Admin from "./pages/Admin";
 
 export const router = createBrowserRouter([
@@ -25,6 +26,7 @@ export const router = createBrowserRouter([
       { path: "top", element: <Top /> },
       { path: "uses", element: <Uses /> },
       { path: "timeline", element: <Timeline /> },
+      { path: "videos", element: <Videos /> },
       { path: "admin", element: <Admin /> },
       { path: "*", element: <NotFound /> },
     ],

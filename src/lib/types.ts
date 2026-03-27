@@ -53,3 +53,9 @@ export interface TimelineEntry {
   title: string;
   description?: string;
 }
+
+export interface Video {
+  title: string;
+  youtubeId: string;
+  description: string;
+}
