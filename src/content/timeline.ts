@@ -2,6 +2,20 @@ import type { TimelineEntry } from "../lib/types";
 
 export const timeline: TimelineEntry[] = [
   {
+    year: 2002,
+    title:
+      "Starts writing Digimon Fanfiction with friends online under the name 'Bobalina'",
+    description: "My Digimon is called Nerimon, part of Digimon FDD",
+  },
+  {
+    year: 2003,
+    title: "Starts an online diary",
+  },
+  {
+    year: 2004,
+    title: "Makes a deviantart account",
+  },
+  {
     year: 2006,
     title: "Starts a YouTube channel",
     description: "nerimon",
@@ -13,7 +27,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2008,
-    title: "Wins a BBC reality show",
+    title: "Applies for, then wins, a BBC reality show",
     description: "Upstaged, cancelled after one season",
   },
   {
@@ -70,6 +84,7 @@ export const timeline: TimelineEntry[] = [
   {
     year: 2012,
     title: "Films a music video on Doctor Who's TARDIS set in Cardiff",
+    description: "Met a Weeping Angel",
   },
   {
     year: 2013,
@@ -82,15 +97,11 @@ export const timeline: TimelineEntry[] = [
     description: "The story of my Forever Yours campaign",
   },
   { year: 2013, title: "Reaches a million YouTube subscribers" },
+  { year: 2013, title: "Deletes my twitter and other social media" },
   {
     year: 2014,
     title: "Almost gets a TV show made",
     description: "Secured for BBC Three the same week BBC Three is shut down",
-  },
-  {
-    year: 2014,
-    title: "Almost gets a publishing deal",
-    description: "Signed with Ebury and cancelled three months later",
   },
   {
     year: 2014,
@@ -123,7 +134,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2017,
-    title: "Moves on to a narrowboat",
+    title: "Moves on to a narrowboat for two years",
     description: "Leaving London by chugging down the Thames",
   },
   {
@@ -165,7 +176,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2022,
-    title: "Wins an office Mario Kart tournament",
+    title: "Moves to a little village outside Bath",
   },
   {
     year: 2023,
