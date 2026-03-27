@@ -3,10 +3,10 @@ import { Link, NavLink } from "react-router-dom";
 const links = [
   // { to: "/projects", label: "projects" },
   { to: "/now", label: "now" },
-  // { to: "/uses", label: "uses" },
+  { to: "/uses", label: "uses" },
   { to: "/music", label: "music" },
   { to: "/top", label: "rushmores" },
-  // { to: "/timeline", label: "timeline" },
+  { to: "/timeline", label: "timeline" },
   { to: "/posts", label: "posts" },
 ];
 
