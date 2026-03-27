@@ -82,9 +82,22 @@ export const timeline: TimelineEntry[] = [
       "Gail from Coronation Street told me to thank my nan for watching",
   },
   {
+    year: 2010,
+    title: "Disney ask if I want to be in a LEGO game",
+    description:
+      "Making LEGO Pirates of the Caribbean, they need a band playing in the bar in Tortuga and consider using my band (it doesn't work out)",
+  },
+  {
     year: 2011,
     title: "Play my first Magic: the Gathering set",
     description: "Core 2012, followed by Innistrad",
+  },
+  {
+    year: 2011,
+    title:
+      "Meets Kermit the Frog, interviews him with a Muppet of myself made by the Muppet studio",
+    description:
+      "Kermit tells me it's the first time he's ever been interviewed by a Muppet version of a real person",
   },
   {
     year: 2011,
@@ -111,18 +124,14 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2012,
-    title: "Films a music video on Doctor Who's TARDIS set in Cardiff",
+    title:
+      "YouTube pays the BBC £30,000 for me to film a music video on Doctor Who's TARDIS set in Cardiff",
     description: "Met a Weeping Angel",
   },
   {
     year: 2012,
     title:
       "#alexdayisalseep trends on Twitter after I tweet that I'm going to bed",
-  },
-  {
-    year: 2013,
-    title: "Interviews Kermit the Frog",
-    description: "Used a Muppet of myself made for me by the Muppet studio",
   },
   {
     year: 2013,
