@@ -234,7 +234,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2024,
-    title: "First job as a senior frontend developer",
+    title: "First job in a senior-level role",
   },
   {
     year: 2024,
