@@ -2,10 +2,16 @@ import type { TimelineEntry } from "../lib/types";
 
 export const timeline: TimelineEntry[] = [
   {
-    year: 2002,
+    year: 1989,
+    title: "Born in Dagenham, Essex",
+    description: "Same year as Taylor Swift",
+  },
+  {
+    year: 2000,
     title:
-      "Starts writing Digimon Fanfiction with friends online under the name 'Bobalina'",
-    description: "My Digimon is called Nerimon, part of Digimon FDD",
+      "Starts writing Digimon Fanfiction with friends online with the username 'Bobalina'",
+    description:
+      "My Digimon is called Nerimon, part of Digimon FDD, and my email is pokemaster7000@hotmail.com",
   },
   {
     year: 2003,
@@ -16,9 +22,25 @@ export const timeline: TimelineEntry[] = [
     title: "Makes a deviantart account",
   },
   {
+    year: 2005,
+    title: "Starts a video podcast",
+    description:
+      "Called 'The Random Touch', basically Harry Hill's TV Burp making jokes about Star Wars and Harry Potter movies",
+  },
+  {
     year: 2006,
     title: "Starts a YouTube channel",
     description: "nerimon",
+  },
+  {
+    year: 2007,
+    title: "Featured on the front page of YouTube",
+  },
+  {
+    year: 2008,
+    title: "Flies to Sydney for the launch of YouTube Australia",
+    description:
+      "I didn't win anything, I just went there; I was the only person there not from Australia",
   },
   {
     year: 2008,
@@ -60,6 +82,11 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2011,
+    title: "Play my first Magic: the Gathering set",
+    description: "Core 2012, followed by Innistrad",
+  },
+  {
+    year: 2011,
     title: "Makes a video of me and a mate wandering around a Walmart",
     description: "Gets a million views in a week",
   },
@@ -87,6 +114,11 @@ export const timeline: TimelineEntry[] = [
     description: "Met a Weeping Angel",
   },
   {
+    year: 2012,
+    title:
+      "#alexdayisalseep trends on Twitter after I tweet that I'm going to bed",
+  },
+  {
     year: 2013,
     title: "Interviews Kermit the Frog",
     description: "Used a Muppet of myself made for me by the Muppet studio",
@@ -111,6 +143,12 @@ export const timeline: TimelineEntry[] = [
   {
     year: 2015,
     title: "Stays at the base of Mount Fuji with Buddhist monks",
+  },
+  {
+    year: 2015,
+    title:
+      "Raises money online to plant trees for nan in Tower Hamlets Cemetery Park",
+    description: "150 trees planted in her memory",
   },
   {
     year: 2015,
