@@ -8,10 +8,9 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2000,
-    title:
-      "Starts writing Digimon Fanfiction with friends online with the username 'Bobalina'",
+    title: "Starts writing Digimon Fanfiction online",
     description:
-      "My Digimon is called Nerimon, part of Digimon FDD, and my email is pokemaster7000@hotmail.com",
+      "My Digimon is called Nerimon and my email is pokemaster7000@hotmail.com",
   },
   {
     year: 2003,
