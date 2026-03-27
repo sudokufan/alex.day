@@ -247,7 +247,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2026,
-    title: "Buys alex.day",
+    title: "Creates alex.day",
     description: "My lifelong dream domain",
   },
 ];
