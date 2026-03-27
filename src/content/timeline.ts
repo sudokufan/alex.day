@@ -35,6 +35,7 @@ export const timeline: TimelineEntry[] = [
   {
     year: 2007,
     title: "Featured on the front page of YouTube",
+    description: "I get 50,000 views in a day and go up to 4,000 subscribers",
   },
   {
     year: 2008,
