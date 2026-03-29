@@ -2,6 +2,64 @@ import type { Post } from "../lib/types";
 
 export const posts: Post[] = [
   {
+    slug: "alex-s-digimon-fanfiction",
+    title: "Alex's Digimon FanFiction",
+    date: "2026-03-27",
+    summary:
+      "Reflections on my earliest internet era.",
+    body: `Building this new site - and, particularly, working on the timeline page - got me thinking about my first ever website. I built it when I was ten years old using Microsoft's WYSIWYG editor *Front Page 2000*, hosted on Tripod (an alternative to Geocities at the time).
+
+It looked like this:
+
+![Screenshot 2026-03-27 at 13.01.19.png](/uploads/Screenshot-2026-03-27-at-13.01.19.png)
+
+![Screenshot 2026-03-27 at 13.01.10.png](/uploads/Screenshot-2026-03-27-at-13.01.10.png)
+
+![Screenshot 2026-03-27 at 13.01.00.png](/uploads/Screenshot-2026-03-27-at-13.01.00.png)
+
+![Screenshot 2026-03-27 at 13.00.50.png](/uploads/Screenshot-2026-03-27-at-13.00.50.png)
+
+I'd love to say it was a pre-WCAG time, but 1.0 was published in 1999 and this came out the year after, so I really have no excuse.
+
+So, there's me, ten years old. My first ever email address was pokemaster7000@hotmail.com and my first ever username was 'Bobalina'. The latter was a nickname my mum had for me. She still uses it. I enjoy watching friends' minds crease trying to make the connection when they see a man called Alex answering to 'Bobs'. The explanation: when I was three years old, a rapper from California called Del the Funky Homosapien released a song called Mistadobalina, about a guy called Mr. Bob Dobalina, and when it played on the radio my mum would sing it to me, "Mr Dobalina, Mr Bob Dobalina", except she thought it was Bobalina - "Mr Bobalina, Mr Bob Bobalina" - so then she started calling me Bobalina, and then Bobby, and then Bobs, all based on a misheard lyric, and to this day she still calls me Bobs.
+
+Anyway, I'm fortunate she misheard because it meant it was an available username, and also means I didn't grow up with my mum calling me Dobby, which would have led to plenty of easy jokes on the playground about how I sleep in a pillowcase and don't own any socks.
+
+Being ten years old, I was into Pokémon at the time, spending my days crawling Geocities sites trying to get badges on the Online Pokémon League. The OPL, as it was known, was basically a treasure hunt across different people's individual web pages. I have no idea who co-ordinated them all - googling it now gives me zero relevant results - but the idea was that each 'gym leader' would have something to find on their webpage. Think 'what's the secret hidden link' or 'what's the difference between the first picture and the second'. If you email this person with the answer, they email you back their gym badge, and then you display them all on *your* website because you're a cool boy.
+
+So this is how I met Gobrianna, or Bri-chan the second member of the OPL's Elite Four. Bri-chan had a Digimon website too, it looked like this:
+
+![tumblr_lme5eluNlj1ql5dvuo1_1280.png](/uploads/tumblr_lme5eluNlj1ql5dvuo1_1280.png)
+
+I loved Pokémon but it's obvious why Digimon spoke to me more creatively, because it was more plausibly possible in the real world. Kids from Earth being pulled through the screen into the digital world, where they could meet others like them and co-exist with companion animals, is a pretty dope idea to a ten-year-old.
+
+So this brings us to Digimon FDD, which stood for 'Fictional Digi-Destined' and was a fanfiction series starring ten-or-so kids online entering the world of Digimon with their own custom-designed Digimon. It was written by Panda-Jenn, who I used to chat with on ICQ, which is like MSN Messenger but way cooler, sort-of the Skype of its day.
+
+My digimon was called Nerimon.
+
+This is the full digivolution line, for those interested:
+
+- In-Training: Nakomon
+- Rookie: Nerimon
+- Champion: Nedikismon
+- Ultimate: NeoNedikismon
+- Mega: UltraNeoNedikismon
+
+I had my own stories that I'd write, and then I was also part of Digimon FDD. Digimon FDD was dope. I just read some of it this morning through the wayback machine and said out loud to myself 'this is fucking sick'. It's something like 40 chapters, and I was one of the characters in this thing that Panda-Jenn wrote. Well, me and Nerimon. That was the first thing I was known for on the internet. People made fanart for it:
+
+![tumblr_p6lfxan3ws1xneqeuo1_400.jpg](/uploads/tumblr_p6lfxan3ws1xneqeuo1_400.jpg)
+
+Having a custom fictional Digimon was super helpful when signing up to new accounts across the internet, because 'nerimon' was a made-up word and therefore always available as a username. It meant, when I created my YouTube channel six years later, that I became Nerimon on YouTube and that was the second thing I was known for on the internet.
+
+I'm not sure I could have reached a million subscribers as Pokemaster7000.
+
+One last thing, from the guestbook of my original website:
+
+![Screenshot 2026-03-27 at 11.40.47.png](/uploads/Screenshot-2026-03-27-at-11.40.47.png)
+
+This is from my first girlfriend, when I was 13. Not even my first kiss, it was pre-first-kiss. I think we saw each other at friends' birthday parties and then went bowling once in the Brewery in Romford. It was a simpler time.`,
+  },
+  {
     slug: "road-rage",
     title: "Road rage",
     date: "2026-02-15",
