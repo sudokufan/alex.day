@@ -60,7 +60,7 @@ export const topLists: MountRushmore[] = [
     items: [
       { name: "Les Miserables", detail: "Claude-Michel Schönberg" },
       { name: "Hamilton", detail: "Lin-Manuel Miranda" },
-      { name: "Groundhog Day", detail: "Tim Minchin" },
+      { name: "Six", detail: "Toby Marlow & Lucy Moss" },
       { name: "Wicked", detail: "Stephen Schwartz" },
     ],
   },
