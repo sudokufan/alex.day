@@ -59,6 +59,10 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2009,
+    title: "Spends three months in Seattle, Washington",
+  },
+  {
+    year: 2009,
     title: "Makes Chartjackers TV show for BBC2",
     description:
       "Releasing a charity song for Children in Need, which makes the UK Top 40",
@@ -197,7 +201,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2018,
-    title: "Four months in Australia",
+    title: "Spends four months in Australia",
     description: "Best Christmas ever",
   },
   {
@@ -233,12 +237,22 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2024,
+    title: "Spends a month in the Lake District",
+    description: "Staying in Kendal",
+  },
+  {
+    year: 2024,
     title: "First job in a senior-level role",
   },
   {
     year: 2024,
     title: "Buys a poncho",
     description: "People at work start calling me 'Clint'",
+  },
+  {
+    year: 2025,
+    title: "Spends a month in Italy",
+    description: "Staying in Bologna",
   },
   {
     year: 2025,
