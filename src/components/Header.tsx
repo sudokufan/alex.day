@@ -18,7 +18,7 @@ export default function Header() {
         to="/"
         className="font-serif text-xl text-ink hover:text-accent transition-colors duration-200"
       >
-        alex.day
+        alex•day
       </Link>
       <nav className="flex flex-wrap gap-x-5 gap-y-1">
         {links.map((link) => (
