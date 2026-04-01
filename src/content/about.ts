@@ -8,6 +8,6 @@ export const about = {
   currently: {
     reading: "Minority Rule",
     watching: "Jury Duty",
-    playing: "Pokémon SoulSilver",
+    playing: "Assassins Creed Shadows",
   },
 };
