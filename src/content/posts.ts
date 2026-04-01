@@ -5,8 +5,7 @@ export const posts: Post[] = [
     slug: "alex-s-digimon-fanfiction",
     title: "Alex's Digimon FanFiction",
     date: "2026-03-27",
-    summary:
-      "Reflections on my earliest internet era.",
+    summary: "Reflections on my earliest internet era.",
     body: `Building this new site - and, particularly, working on the timeline page - got me thinking about my first ever website. I built it when I was ten years old using Microsoft's WYSIWYG editor *Front Page 2000*, hosted on Tripod (an alternative to Geocities at the time).
 
 It looked like this:
@@ -49,7 +48,7 @@ I had my own stories that I'd write, and then I was also part of Digimon FDD. Di
 
 ![tumblr_p6lfxan3ws1xneqeuo1_400.jpg](/uploads/tumblr_p6lfxan3ws1xneqeuo1_400.jpg)
 
-Having a custom fictional Digimon was super helpful when signing up to new accounts across the internet, because 'nerimon' was a made-up word and therefore always available as a username. It meant, when I created my YouTube channel six years later, that I became Nerimon on YouTube and that was the second thing I was known for on the internet.
+Having a custom fictional Digimon was super helpful when signing up to new accounts across the internet, because - like Bobalina - 'nerimon' was a made-up word and always available as a username. It meant, when I created my YouTube channel six years later, that I became Nerimon on YouTube, and that was the second thing I was known for on the internet.
 
 I'm not sure I could have reached a million subscribers as Pokemaster7000.
 
