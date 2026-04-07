@@ -24,16 +24,18 @@ export const releases: Release[] = [
     date: "2026-03-24",
     artwork: stranger,
     bandcampUrl: "https://alexday.bandcamp.com/album/the-stranger",
-    spotifyUrl: "",
-    appleMusicUrl: "",
+    spotifyUrl: "http://open.spotify.com/album/10TbBpEERHAj1Ce1Ok3rBF",
+    appleMusicUrl: "https://music.apple.com/us/album/the-stranger/1885738343",
   },
   {
     title: "Relax! Nothing Is Under Control!",
     date: "2021-08-06",
     artwork: relax,
-    bandcampUrl: "https://alexday.bandcamp.com/album/relax-nothing-is-under-control",
+    bandcampUrl:
+      "https://alexday.bandcamp.com/album/relax-nothing-is-under-control",
     spotifyUrl: "https://open.spotify.com/album/6Dbc1qj1m24H1XtnqRNwKp",
-    appleMusicUrl: "https://music.apple.com/us/album/relax-nothing-is-under-control/1580474750",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/relax-nothing-is-under-control/1580474750",
   },
   {
     title: "Sunset",
@@ -49,7 +51,8 @@ export const releases: Release[] = [
     artwork: split,
     bandcampUrl: "https://alexday.bandcamp.com/album/split-infinities",
     spotifyUrl: "https://open.spotify.com/album/775hc5GcdNNfTqI0yYM781",
-    appleMusicUrl: "https://music.apple.com/us/album/split-infinities/1478553558",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/split-infinities/1478553558",
   },
   {
     title: "Nowhere Left to Hide",
@@ -57,7 +60,8 @@ export const releases: Release[] = [
     artwork: nowhere,
     bandcampUrl: "https://alexday.bandcamp.com/album/nowhere-left-to-hide",
     spotifyUrl: "https://open.spotify.com/album/33ALmgD6b7vzQXmUtvJnQk",
-    appleMusicUrl: "https://music.apple.com/us/album/nowhere-left-to-hide/1484193431",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/nowhere-left-to-hide/1484193431",
   },
   {
     title: "Epigrams and Interludes",
@@ -65,15 +69,18 @@ export const releases: Release[] = [
     artwork: epigrams,
     bandcampUrl: "https://alexday.bandcamp.com/album/epigrams-and-interludes",
     spotifyUrl: "https://open.spotify.com/album/5DP9mly0dbQZobx0YpGdmK",
-    appleMusicUrl: "https://music.apple.com/us/album/epigrams-and-interludes/1066381533",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/epigrams-and-interludes/1066381533",
   },
   {
     title: "The World Is Mine (I Don't Know Anything)",
     date: "2010-06-01",
     artwork: world,
-    bandcampUrl: "https://alexday.bandcamp.com/album/the-world-is-mine-i-dont-know-anything",
+    bandcampUrl:
+      "https://alexday.bandcamp.com/album/the-world-is-mine-i-dont-know-anything",
     spotifyUrl: "https://open.spotify.com/album/0WpCCZMKz9UIcNEBxsfCW4",
-    appleMusicUrl: "https://music.apple.com/us/album/the-world-is-mine-i-dont-know-anything/1484195708",
+    appleMusicUrl:
+      "https://music.apple.com/us/album/the-world-is-mine-i-dont-know-anything/1484195708",
   },
   {
     title: "Parrot Stories",
