@@ -56,6 +56,15 @@ export const topLists: MountRushmore[] = [
     ],
   },
   {
+    category: "Comedians",
+    items: [
+      { name: "Taylor Tomlinson" },
+      { name: "James Acaster" },
+      { name: "Stewart Lee" },
+      { name: "Louis CK" },
+    ],
+  },
+  {
     category: "Musicals",
     items: [
       { name: "Les Miserables", detail: "Claude-Michel Schönberg" },
