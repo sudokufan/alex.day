@@ -2,6 +2,24 @@ import type { Post } from "../lib/types";
 
 export const posts: Post[] = [
   {
+    slug: "new-gatekeepers",
+    title: "New gatekeepers",
+    date: "2026-04-07",
+    summary:
+      "Brief thoughts on algorithms",
+    body: `I used to think the internet was meritocratic, that the cream rose to the top, and that in so doing we had removed the need for gatekeepers in the form of publishing editors, record label managers, etc. The promise of the early internet, I think, was a direct line from you to the people you wanted to make things for.
+
+I've now come to realise that we've just replaced the old gatekeepers with new ones called algorithms.
+
+This is a pretty obvious conclusion, but it has a lot of less obvious ramifications. One, off the top of my head: book publishers used to be the thing you needed in order to get an audience. Now, not only do you not need them, but they need *you* to have that connection in order for them to consider signing you, because you're of no use to each other if you don't. That puts more pressure on you to be the wearer of many hats, being an expert not just on writing but also in marketing and distribution.
+
+The most important conclusion, for me, is that the old gatekeepers were human, and so we would try to break through them in human ways. You would know someone who had a friendly relationship or you'd try to strike one up yourself, or you'd create a particularly unique pitch deck that would stand out because you weren't doing what everyone else was doing.
+
+Now that the gatekeepers are computers, finding success means having to behave more like a computer. If you got the attention of human gatekeepers by standing out, you get the attention of the algorithms by blending in, by doing exactly what they expect. You have to think more like what a computer wants, and your art has to become less human in order to succeed in a world where humans don't decide what you do and don't consume.
+
+Happy Easter!`,
+  },
+  {
     slug: "alex-s-digimon-fanfiction",
     title: "Alex's Digimon FanFiction",
     date: "2026-03-27",
@@ -24,13 +42,13 @@ So, there's me, ten years old. My first ever email address was pokemaster7000@ho
 
 Anyway, I'm fortunate she misheard because it meant it was an available username, and also means I didn't grow up with my mum calling me Dobby, which would have led to plenty of easy jokes on the playground about how I sleep in a pillowcase and don't own any socks.
 
-Being ten years old, I was into Pokémon at the time, spending my days crawling Geocities sites trying to get badges on the Online Pokémon League. The OPL, as it was known, was basically a treasure hunt across different people's individual web pages. I have no idea who co-ordinated them all - googling it now gives me zero relevant results - but the idea was that each 'gym leader' would have something to find on their webpage. Think 'what's the secret hidden link' or 'what's the difference between the first picture and the second'. If you email this person with the answer, they email you back their gym badge, and then you display them all on *your* website because you're a cool boy.
+Being ten years old, I was into PokÃ©mon at the time, spending my days crawling Geocities sites trying to get badges on the Online PokÃ©mon League. The OPL, as it was known, was basically a treasure hunt across different people's individual web pages. I have no idea who co-ordinated them all - googling it now gives me zero relevant results - but the idea was that each 'gym leader' would have something to find on their webpage. Think 'what's the secret hidden link' or 'what's the difference between the first picture and the second'. If you email this person with the answer, they email you back their gym badge, and then you display them all on *your* website because you're a cool boy.
 
 So this is how I met Gobrianna, or Bri-chan the second member of the OPL's Elite Four. Bri-chan had a Digimon website too, it looked like this:
 
 ![tumblr_lme5eluNlj1ql5dvuo1_1280.png](/uploads/tumblr_lme5eluNlj1ql5dvuo1_1280.png)
 
-I loved Pokémon but it's obvious why Digimon spoke to me more creatively, because it was more plausibly possible in the real world. Kids from Earth being pulled through the screen into the digital world, where they could meet others like them and co-exist with companion animals, is a pretty dope idea to a ten-year-old.
+I loved PokÃ©mon but it's obvious why Digimon spoke to me more creatively, because it was more plausibly possible in the real world. Kids from Earth being pulled through the screen into the digital world, where they could meet others like them and co-exist with companion animals, is a pretty dope idea to a ten-year-old.
 
 So this brings us to Digimon FDD, which stood for 'Fictional Digi-Destined' and was a fanfiction series starring ten-or-so kids online entering the world of Digimon with their own custom-designed Digimon. It was written by Panda-Jenn, who I used to chat with on ICQ, which is like MSN Messenger but way cooler, sort-of the Skype of its day.
 
@@ -156,7 +174,7 @@ Once a year, the people who make Magic get on stage and talk high-level about th
 
 So I was awake at 5:45 on Saturday morning, firing up the projector to watch the panel on our home cinema.
 
-I then spent the day playing Magic in my third place, sympathetically nodding while a bunch of Magic fans ranted that the new direction of the game proved it was all going to shit. I would describe them as *dramatically* unhappy. Ah well. No-one hates more than a fan. 🤷‍♂️
+I then spent the day playing Magic in my third place, sympathetically nodding while a bunch of Magic fans ranted that the new direction of the game proved it was all going to shit. I would describe them as *dramatically* unhappy. Ah well. No-one hates more than a fan. ð¤·ââï¸
 
 Sunday saw me attend the Mean Girls musical in London, a trip Georgia organised for my 35th birthday back in April. This means it was Christmas *and* my birthday this weekend. I fell in love with the Mean Girls movie when it came out, watching it three times in quick succession with various people. Sat in the front row, seeing it live, felt like seeing a band I love play one of their albums all the way through. I had a phenomenal time, not just because of the show but because I got to visit Pizza Pilgrims and Doughnut Time, my favourite pizza and doughnut places, which are only available in the capital.
 
@@ -169,7 +187,7 @@ Sunday saw me attend the Mean Girls musical in London, a trip Georgia organised 
 ![IMG_1005.jpeg](/uploads/IMG_1005.jpeg)
 *Small happy people!*
 
-Plus, G and I played more Magic on the train there. 😊
+Plus, G and I played more Magic on the train there. ð
 Today I finished my first assignment for my final university module! For those unaware, I've so far studied:
 
 - *Introduction to Social Sciences*
@@ -224,7 +242,7 @@ Which brings me on to *you*, some of the other people I spend time with: there a
 - Seven of you are musicians
 
 I was touched at the responses to the last newsletter. Maureen sent me almost an entire newsletter-length text of her own back to me, with pictures updating me on all aspects of her life. Eden also sent pictures (and demanded credit for encouraging me to start this in the first place; I trust this is sufficient). Peter emailed back telling me he also swings kettlebells. And Evy signed up happily but warned me in no uncertain terms not to write too many of these because she's 
-*sick of her friends starting newsletters*. So, with that accountability in mind, I'll wrap up the main chunk here. Thanks for reading 😊
+*sick of her friends starting newsletters*. So, with that accountability in mind, I'll wrap up the main chunk here. Thanks for reading ð
 
 ## End step
 
@@ -281,7 +299,7 @@ The point is, I'd rather people tell me when they don't have the time to read it
 
 - Song I loved recently - *Happy Mistake (Lady Gaga)*. Gaga just released a new album of jazz covers, Harlequin, but amongst them was this original song, which was by far my favourite; I particularly love the lilting repeated melody in the chorus.
 
-Thanks for reading. 😊 It really means a lot to have you here. If you promise not to leave I'll promise to write things I think are worth your time.
+Thanks for reading. ð It really means a lot to have you here. If you promise not to leave I'll promise to write things I think are worth your time.
 
 Take it easy,
 
