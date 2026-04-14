@@ -5,8 +5,7 @@ export const posts: Post[] = [
     slug: "new-gatekeepers",
     title: "New gatekeepers",
     date: "2026-04-07",
-    summary:
-      "Brief thoughts on algorithms",
+    summary: "Brief thoughts on algorithms",
     body: `I used to think the internet was meritocratic, that the cream rose to the top, and that in so doing we had removed the need for gatekeepers in the form of publishing editors, record label managers, etc. The promise of the early internet, I think, was a direct line from you to the people you wanted to make things for.
 
 I've now come to realise that we've just replaced the old gatekeepers with new ones called algorithms.
@@ -42,13 +41,13 @@ So, there's me, ten years old. My first ever email address was pokemaster7000@ho
 
 Anyway, I'm fortunate she misheard because it meant it was an available username, and also means I didn't grow up with my mum calling me Dobby, which would have led to plenty of easy jokes on the playground about how I sleep in a pillowcase and don't own any socks.
 
-Being ten years old, I was into PokÃ©mon at the time, spending my days crawling Geocities sites trying to get badges on the Online PokÃ©mon League. The OPL, as it was known, was basically a treasure hunt across different people's individual web pages. I have no idea who co-ordinated them all - googling it now gives me zero relevant results - but the idea was that each 'gym leader' would have something to find on their webpage. Think 'what's the secret hidden link' or 'what's the difference between the first picture and the second'. If you email this person with the answer, they email you back their gym badge, and then you display them all on *your* website because you're a cool boy.
+Being ten years old, I was into Pokémon at the time, spending my days crawling Geocities sites trying to get badges on the Online Pokémon League. The OPL, as it was known, was basically a treasure hunt across different people's individual web pages. I have no idea who co-ordinated them all - googling it now gives me zero relevant results - but the idea was that each 'gym leader' would have something to find on their webpage. Think 'what's the secret hidden link' or 'what's the difference between the first picture and the second'. If you email this person with the answer, they email you back their gym badge, and then you display them all on *your* website because you're a cool boy.
 
 So this is how I met Gobrianna, or Bri-chan the second member of the OPL's Elite Four. Bri-chan had a Digimon website too, it looked like this:
 
 ![tumblr_lme5eluNlj1ql5dvuo1_1280.png](/uploads/tumblr_lme5eluNlj1ql5dvuo1_1280.png)
 
-I loved PokÃ©mon but it's obvious why Digimon spoke to me more creatively, because it was more plausibly possible in the real world. Kids from Earth being pulled through the screen into the digital world, where they could meet others like them and co-exist with companion animals, is a pretty dope idea to a ten-year-old.
+I loved Pokémon but it's obvious why Digimon spoke to me more creatively, because it was more plausibly possible in the real world. Kids from Earth being pulled through the screen into the digital world, where they could meet others like them and co-exist with companion animals, is a pretty dope idea to a ten-year-old.
 
 So this brings us to Digimon FDD, which stood for 'Fictional Digi-Destined' and was a fanfiction series starring ten-or-so kids online entering the world of Digimon with their own custom-designed Digimon. It was written by Panda-Jenn, who I used to chat with on ICQ, which is like MSN Messenger but way cooler, sort-of the Skype of its day.
 
