@@ -8,7 +8,7 @@ export const posts: Post[] = [
     summary: "Honestly just a list",
     body: `I'm really tickled by the idea of just having a page on my website which is nothing but a list of all the musicals I've seen live. Even though it has no value to anyone, I like it because it reminds me of early internet websites, curated by individuals who filled them with the ephemera of their own lives.
     
-    I also just wanna share how much I love musicals, and show the receipts. I love musicals. I honestly can't understand anyone who thinks a story isn't elevated by good music. Especially if you like *Scott Pilgrim vs The World*, which is the same godamn thing but with fighting instead of singing. If you're one of those people who thinks the film is good but it would be better without the music, well I'm one of those people who thinks the friendship is good but it would be better without the opinions.
+I also just wanna share how much I love musicals, and show the receipts. I love musicals. I honestly can't understand anyone who thinks a story isn't elevated by good music. Especially if you like *Scott Pilgrim vs The World*, which is the same godamn thing but with fighting instead of singing. If you're one of those people who thinks the film is good but it would be better without the music, well I'm one of those people who thinks the friendship is good but it would be better without the opinions.
 
 Here is a list of all the musicals I've ever seen live:
 
@@ -50,11 +50,12 @@ Honorable mentions to the ones I've only seen movies of (or the movie's all ther
 - Dear Evan Hansen
 - Dreamgirls
 - Tick Tick Boom
+- In the Heights
 - A Star Is Born
 - There's Something About Jamie
 - Kinky Boots
 - The Producers
-- pretty much all the Disney animated musicals`,
+- all the Disney animated musicals (except Wish, which I'll get round to)`,
   },
   {
     slug: "new-gatekeepers",
