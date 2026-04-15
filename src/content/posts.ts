@@ -40,12 +40,12 @@ Here is a list of all the musicals I've ever seen live:
 24. Chicago
 25. The Guy Who Didn't Like Musicals
 26. Hadestown
+27. The Greatest Showman
     
 Honorable mentions to the ones I've only seen movies of (or the movie's all there is):
 - Rent
 - La La Land
 - Moulin Rouge
-- The Greatest Showman
 - Annie
 - Dear Evan Hansen
 - Dreamgirls
