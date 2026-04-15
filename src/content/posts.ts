@@ -2,6 +2,61 @@ import type { Post } from "../lib/types";
 
 export const posts: Post[] = [
   {
+    slug: "musicals-i-ve-seen",
+    title: "Musicals I've seen",
+    date: "2026-04-15",
+    summary: "Honestly just a list",
+    body: `I'm really tickled by the idea of just having a page on my website which is nothing but a list of all the musicals I've seen live. Even though it has no value to anyone, I like it because it reminds me of early internet websites, curated by individuals who filled them with the ephemera of their own lives.
+    
+    I also just wanna share how much I love musicals, and show the receipts. I love musicals. I honestly can't understand anyone who thinks a story isn't elevated by good music. Especially if you like *Scott Pilgrim vs The World*, which is the same godamn thing but with fighting instead of singing. If you're one of those people who thinks the film is good but it would be better without the music, well I'm one of those people who thinks the friendship is good but it would be better without the opinions.
+
+Here is a list of all the musicals I've ever seen live:
+
+*Last updated April 15th 2026*
+
+1. We Will Rock You
+2. The Lion King
+3. Wicked
+4. Matilda
+5. Les Miserables
+6. Hamilton
+7. Thriller
+8. The Book of Mormon
+9. Avenue Q
+10. Spamalot
+11. Show Boat
+12. Spider-Man: Turn Off The Dark
+13. The Addams Family
+14. American Idiot
+15. I Can't Sing
+16. Viva Forever
+17. The Phantom Of The Opera
+18. Once
+19. Waitress
+20. Mean Girls
+21. MJ
+22. Six
+23. Come From Away
+24. Chicago
+25. The Guy Who Didn't Like Musicals
+26. Hadestown
+    
+Honorable mentions to the ones I've only seen movies of (or the movie's all there is):
+- Rent
+- La La Land
+- Moulin Rouge
+- The Greatest Showman
+- Annie
+- Dear Evan Hansen
+- Dreamgirls
+- Tick Tick Boom
+- A Star Is Born
+- There's Something About Jamie
+- Kinky Boots
+- The Producers
+- pretty much all the Disney animated musicals`,
+  },
+  {
     slug: "new-gatekeepers",
     title: "New gatekeepers",
     date: "2026-04-07",
