@@ -8,7 +8,7 @@ export const posts: Post[] = [
     summary: "Honestly just a list",
     body: `I'm really tickled by the idea of just having a page on my website which is nothing but a list of all the musicals I've seen live. Even though it has no value to anyone, I like it because it reminds me of early internet websites, curated by individuals who filled them with the ephemera of their own lives, which this site is the spiritual successor to.
     
-I also just wanna share how much I love musicals and show the receipts. I love musicals. I honestly can't understand people who don't think a story is elevated by good music. Especially if you like *Scott Pilgrim vs The World*, which is the same thing just with fighting instead of singing. If you're one of those people who thinks the film is good but it would be better without the music, well I'm one of those people who thinks the friendship is good but it would be better without the opinions.
+I also just wanna share how much I love musicals and show the receipts. I love musicals. I honestly can't understand people who don't think a story is elevated by good music. Especially if you like *Scott Pilgrim vs The World*, which is the same thing just with fighting instead of singing.
 
 Here is a list of all the musicals I've ever seen live:
 
