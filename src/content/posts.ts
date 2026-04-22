@@ -44,9 +44,11 @@ Here is a list of all the musicals I've ever seen live:
     
 Honorable mentions to the ones I've only seen movies of (or the movie's all there is):
 - Rent
+- Grease
 - La La Land
 - Moulin Rouge
 - Annie
+- High School Musical
 - Dear Evan Hansen
 - Dreamgirls
 - Tick Tick Boom
