@@ -23,7 +23,7 @@ export const topLists: MountRushmore[] = [
     category: "Albums",
     items: [
       { name: "Thriller", detail: "Michael Jackson" },
-      { name: "American Pie 2 Soundtrack" },
+      { name: "American Pie 2 Soundtrack", detail: "various" },
       { name: "Come Away With Me", detail: "Norah Jones" },
       { name: "The Black Parade", detail: "My Chemical Romance" },
     ],
