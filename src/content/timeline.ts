@@ -33,7 +33,7 @@ export const timeline: TimelineEntry[] = [
   },
   {
     year: 2007,
-    title: "Featured on the front page of YouTube",
+    title: "Is featured on the front page of YouTube",
     description: "I get 50,000 views in a day and go up to 4,000 subscribers",
   },
   {
@@ -46,6 +46,11 @@ export const timeline: TimelineEntry[] = [
     year: 2008,
     title: "Article about me in the Romford Recorder calls me a 'website nut'",
     description: "My nan frames it and puts it on her living room wall",
+  },
+  {
+    year: 2008,
+    title: "Runs video blogging workshops in Amsterdam",
+    description: "For the European Cultural Foundation",
   },
   {
     year: 2008,
@@ -119,6 +124,10 @@ export const timeline: TimelineEntry[] = [
     title:
       '"Forever Yours" falls 108 places the week after release, from #4 to #112',
     description: "Becomes the biggest drop in UK chart history",
+  },
+  {
+    year: 2012,
+    title: "Writes for Doctor Who Adventures magazine",
   },
   {
     year: 2012,
