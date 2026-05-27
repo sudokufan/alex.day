@@ -7,7 +7,7 @@ export const about = {
   ],
   currently: {
     reading: "Minority Rule",
-    watching: "The Capture",
-    playing: "Assassins Creed Shadows",
+    watching: "Stewart Lee's Comedy Vehicle",
+    playing: "Mario Kart World",
   },
 };
