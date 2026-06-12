@@ -6,8 +6,8 @@ export const about = {
     "I've been doing this for a while.",
   ],
   currently: {
-    reading: "Minority Rule",
-    watching: "Stewart Lee's Comedy Vehicle",
-    playing: "Mario Kart World",
+    reading: "Battle Royale",
+    watching: "James Acaster's Repetoire",
+    playing: "Balatro",
   },
 };
