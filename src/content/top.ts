@@ -6,7 +6,7 @@ export const topLists: MountRushmore[] = [
     items: [
       { name: "Green Day" },
       { name: "Lady Gaga" },
-      { name: "The Beatles" },
+      { name: "My Chemical Romance" },
       { name: "Billie Eilish" },
     ],
   },
@@ -15,7 +15,7 @@ export const topLists: MountRushmore[] = [
     items: [
       { name: "Innuendo", detail: "Queen" },
       { name: "Albatross", detail: "Fleetwood Mac" },
-      { name: "Bridge Over Troubled Water", detail: "Simon & Garfunkel" },
+      { name: "Girl", detail: "The Beatles" },
       { name: "Baby One More Time", detail: "Britney Spears" },
     ],
   },
@@ -49,10 +49,11 @@ export const topLists: MountRushmore[] = [
   {
     category: "Movies",
     items: [
-      { name: "About Time", detail: "Richard Curtis" },
-      { name: "Tick, Tick... Boom!", detail: "Lin-Manuel Miranda" },
+      // { name: "About Time", detail: "Richard Curtis" },
       { name: "Wall•E", detail: "Andrew Stanton" },
       { name: "The Avengers", detail: "Joss Whedon" },
+      { name: "Tick, Tick... Boom!", detail: "Lin-Manuel Miranda" },
+      { name: "Snowpiercer", detail: "Bong Joon Ho" },
     ],
   },
   {
