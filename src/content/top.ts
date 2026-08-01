@@ -4,7 +4,7 @@ export const topLists: MountRushmore[] = [
   {
     category: "Artists",
     items: [
-      { name: "Green Day" },
+      { name: "Olivia Rodrigo" },
       { name: "Lady Gaga" },
       { name: "My Chemical Romance" },
       { name: "Billie Eilish" },
@@ -22,7 +22,7 @@ export const topLists: MountRushmore[] = [
   {
     category: "Albums",
     items: [
-      { name: "Thriller", detail: "Michael Jackson" },
+      { name: "21st Century Breakdown", detail: "Green Day" },
       { name: "American Pie 2 Soundtrack", detail: "various" },
       { name: "Come Away With Me", detail: "Norah Jones" },
       { name: "The Black Parade", detail: "My Chemical Romance" },
