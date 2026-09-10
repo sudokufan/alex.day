@@ -1,7 +1,7 @@
 import type { NowSection } from "../lib/types";
 
 export const now = {
-  lastUpdated: "2026-03-24",
+  lastUpdated: "2026-09-10",
   sections: [
     {
       heading: "uni",
