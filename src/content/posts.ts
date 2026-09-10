@@ -57,6 +57,7 @@ Honorable mentions to the ones I've only seen movies of (or the movie's all ther
 - There's Something About Jamie
 - Kinky Boots
 - The Producers
+- KPop Demon Hunters
 - all the Disney animated musicals (except Wish, which I'll get round to)`,
   },
   {
