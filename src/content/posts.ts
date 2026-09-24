@@ -12,7 +12,7 @@ I also just wanna share how much I love musicals and show the receipts. I love m
 
 Here is a list of all the musicals I've ever seen live:
 
-*Last updated April 15th 2026*
+*Last updated September 24th 2026*
 
 1. We Will Rock You
 2. The Lion King
@@ -33,14 +33,16 @@ Here is a list of all the musicals I've ever seen live:
 17. The Phantom Of The Opera
 18. Once
 19. Waitress
-20. Mean Girls
-21. MJ
-22. Six
-23. Come From Away
-24. Chicago
-25. The Guy Who Didn't Like Musicals
-26. Hadestown
-27. The Greatest Showman
+20. Groundhog Day
+21. Mean Girls
+22. MJ
+23. Six
+24. Come From Away
+25. Chicago
+26. The Guy Who Didn't Like Musicals
+27. Hadestown
+28. The Greatest Showman
+29. Amélie
     
 Honorable mentions to the ones I've only seen movies of (or the movie's all there is):
 - Rent
@@ -50,14 +52,17 @@ Honorable mentions to the ones I've only seen movies of (or the movie's all ther
 - Annie
 - High School Musical
 - Dear Evan Hansen
+- Mamma Mia
 - Dreamgirls
 - Tick Tick Boom
 - In the Heights
 - A Star Is Born
-- There's Something About Jamie
+- Everybody's Talking About Jamie
 - Kinky Boots
+- Rock of Ages
 - The Producers
 - KPop Demon Hunters
+- A Very Potter Musical (the YouTube recording)
 - all the Disney animated musicals (except Wish, which I'll get round to)`,
   },
   {
