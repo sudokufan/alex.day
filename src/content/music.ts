@@ -13,9 +13,9 @@ import parrot from "../assets/parrot.jpg";
 export const releases: Release[] = [
   {
     title: "The Drop",
-    date: "",
+    date: "2026-10-21",
     artwork: drop,
-    bandcampUrl: "",
+    bandcampUrl: "https://alexday.bandcamp.com/album/the-drop-2",
     spotifyUrl: "",
     appleMusicUrl: "",
   },
