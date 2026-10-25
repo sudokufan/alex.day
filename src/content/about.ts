@@ -5,9 +5,9 @@ export const about = {
     "You'll usually find me with a smile on my face, a Magic: the Gathering card in my hand and a slice of pizza in my mouth.",
   ],
   currently: {
-    reading: "The Compound",
-    watching: "Sick of It",
-    playing: "Ape Escape 2",
+    reading: "Lobster - Hollie McNish",
+    watching: "Celebrity Traitors",
+    playing: "Star Wars Galactic Racer",
     // singing: "Welcome to the Black Parade",
   },
 };
