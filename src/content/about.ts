@@ -6,7 +6,7 @@ export const about = {
   ],
   currently: {
     reading: "Lobster - Hollie McNish",
-    watching: "Celebrity Traitors",
+    watching: "Nobody Wants This",
     playing: "Star Wars Galactic Racer",
     // singing: "Welcome to the Black Parade",
   },
