@@ -12,7 +12,7 @@ I also just wanna share how much I love musicals and show the receipts. I love m
 
 Here is a list of all the musicals I've ever seen live:
 
-*Last updated September 24th 2026*
+*Last updated November 10th 2026*
 
 1. We Will Rock You
 2. The Lion King
@@ -43,6 +43,7 @@ Here is a list of all the musicals I've ever seen live:
 27. Hadestown
 28. The Greatest Showman
 29. Amélie
+30. Back To The Future
     
 Honorable mentions to the ones I've only seen movies of (or the movie's all there is):
 - Rent
