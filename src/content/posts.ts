@@ -12,7 +12,7 @@ I also just wanna share how much I love musicals and show the receipts. I love m
 
 Here is a list of all the musicals I've ever seen live:
 
-*Last updated November 10th 2026*
+*Last updated November 18th 2026*
 
 1. We Will Rock You
 2. The Lion King
