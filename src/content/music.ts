@@ -16,8 +16,8 @@ export const releases: Release[] = [
     date: "2026-10-21",
     artwork: drop,
     bandcampUrl: "https://alexday.bandcamp.com/album/the-drop-2",
-    spotifyUrl: "",
-    appleMusicUrl: "",
+    spotifyUrl: "https://open.spotify.com/album/4TAQl3TFjxI0XZWECauZfw",
+    appleMusicUrl: "https://music.apple.com/gb/album/the-drop/6820226798",
   },
   {
     title: "The Stranger",

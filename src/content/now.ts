@@ -12,7 +12,7 @@ export const now = {
     {
       heading: "music",
       items: [
-        "My new album The Stranger came out six months ago. It's nice, I like it. I have another album out in October which I think is great, and I'm working on the thing after that.",
+        "Released two albums this year - The Stranger in March, The Drop in October - and I'm working on the thing after that, which is currently titled Anywhere Here Is Fine.",
       ],
     },
     {
@@ -36,7 +36,7 @@ export const now = {
     {
       heading: "trips",
       items: [
-        "G and I spent a week in Spain this summer, and we'll do another trip next year, although probably within England/the UK so we can go somewhere longer and work remotely. I'm doing Vipassana again later this year.",
+        "G and I spent a week in Spain this summer, and we'll do another trip next year, although probably within England/the UK so we can go somewhere longer and work remotely.",
       ],
     },
     {

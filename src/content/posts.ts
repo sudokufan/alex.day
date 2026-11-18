@@ -44,6 +44,7 @@ Here is a list of all the musicals I've ever seen live:
 28. The Greatest Showman
 29. Amélie
 30. Back To The Future
+31. Into The Woods
     
 Honorable mentions to the ones I've only seen movies of (or the movie's all there is):
 - Rent

@@ -4,7 +4,7 @@ export const topLists: MountRushmore[] = [
   {
     category: "Artists",
     items: [
-      { name: "Olivia Rodrigo" },
+      { name: "Michael Jackson" },
       { name: "Lady Gaga" },
       { name: "My Chemical Romance" },
       { name: "Billie Eilish" },
@@ -49,9 +49,9 @@ export const topLists: MountRushmore[] = [
   {
     category: "Movies",
     items: [
-      // { name: "About Time", detail: "Richard Curtis" },
+      { name: "About Time", detail: "Richard Curtis" },
       { name: "Wall•E", detail: "Andrew Stanton" },
-      { name: "The Avengers", detail: "Joss Whedon" },
+      // { name: "The Avengers", detail: "Joss Whedon" },
       { name: "Tick, Tick... Boom!", detail: "Lin-Manuel Miranda" },
       { name: "Snowpiercer", detail: "Bong Joon Ho" },
     ],
@@ -74,15 +74,6 @@ export const topLists: MountRushmore[] = [
       { name: "Wicked", detail: "Stephen Schwartz" },
     ],
   },
-  // {
-  //   category: "Blogs",
-  //   items: [
-  //     { name: "Really Very Human" },
-  //     { name: "Panic World" },
-  //     { name: "Rhystic Studies" },
-  //     { name: "" },
-  //   ],
-  // },
   {
     category: "Podcasts",
     items: [
